@@ -12,26 +12,37 @@
         body { background-color: #fcfcfc; font-family: 'Plus Jakarta Sans', sans-serif; -webkit-tap-highlight-color: transparent; }
         .swiper { padding: 0 24px !important; }
         ::-webkit-scrollbar { display: none; }
-        #tiktok-notice { display: none; animation: slideDown 0.5s ease; }
+        
+        /* Hiệu ứng thanh thông báo */
+        #tiktok-notice { 
+            background: linear-gradient(90deg, #059669, #10b981);
+            display: none; 
+            animation: slideDown 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        }
         @keyframes slideDown { from { transform: translateY(-100%); } to { transform: translateY(0); } }
     </style>
 </head>
 <body class="max-w-md mx-auto pb-24">
 
-    <div id="tiktok-notice" class="bg-emerald-600 text-white text-[11px] font-bold py-3 px-6 text-center sticky top-0 z-[60] shadow-xl">
-        Bấm dấu (⋮) ở góc trên -> chọn "Mở bằng trình duyệt" để vào App Shopee mượt hơn! 🚀
-    </div>
-
-    <div class="sticky top-[41px] z-50 bg-white/80 backdrop-blur-xl px-6 py-4 border-b border-slate-100">
-        <div class="relative">
-            <input type="text" id="searchInput" placeholder="Tìm phụ kiện..." class="w-full bg-slate-100 border-none rounded-2xl py-3 pl-10 pr-4 text-sm focus:ring-2 focus:ring-emerald-500/20">
-            <span class="absolute left-3 top-3.5 opacity-30">🔍</span>
+    <div id="tiktok-notice" class="text-white py-3 px-6 sticky top-0 z-[100] shadow-xl border-b border-white/10">
+        <div class="flex items-center justify-center gap-2">
+            <span class="text-lg">💡</span>
+            <p class="text-[11px] leading-tight font-bold">
+                Nhấn dấu <span class="bg-white/20 px-1 rounded">⋮</span> hoặc <span class="bg-white/20 px-1 rounded">⋯</span> góc trên bên phải -> Chọn <span class="underline">"Mở trong trình duyệt"</span> để mua hàng mượt nhất!
+            </p>
         </div>
     </div>
 
-    <header class="px-6 pt-8 pb-6 text-center">
-        <h1 class="text-3xl font-extrabold text-slate-900 tracking-tighter italic">Aquarium <span class="text-emerald-500 underline decoration-emerald-200">Studio</span></h1>
-        <p class="text-slate-400 text-xs mt-2 font-medium tracking-wide uppercase">Cập nhật deal hot mỗi ngày</p>
+    <div class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl px-6 py-4 border-b border-slate-100" id="search-sticky">
+        <div class="relative">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm phụ kiện..." class="w-full bg-slate-100 border-none rounded-2xl py-3 pl-10 pr-4 text-sm focus:ring-2 focus:ring-emerald-500/20">
+            <span class="absolute left-3 top-3.5 opacity-30 text-lg">🔍</span>
+        </div>
+    </div>
+
+    <header class="px-6 pt-10 pb-6">
+        <h1 class="text-4xl font-extrabold text-slate-900 tracking-tighter">Aquarium <span class="text-emerald-500 italic">Studio.</span></h1>
+        <p class="text-slate-400 text-[10px] mt-2 font-bold uppercase tracking-[0.2em]">Cửa hàng phụ kiện thủy sinh tin dùng</p>
     </header>
 
     <main id="mainContent">
@@ -49,8 +60,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Bèo Rễ Đỏ</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">15.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5L78qKi3nv" onclick="handleLink(event, 'https://s.shopee.vn/5L78qKi3nv')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5L78qKi3nv')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5L78qKi3nv" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cỏ chân vịt">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -61,8 +71,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cỏ Chân Vịt</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">5.999đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7KsDE5bB0n" onclick="handleLink(event, 'https://s.shopee.vn/7KsDE5bB0n')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7KsDE5bB0n')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7KsDE5bB0n" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="liễu răng cưa ">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -73,8 +82,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Liễu Răng Cưa </h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">10.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/8ph12ryASl" onclick="handleLink(event, 'https://s.shopee.vn/8ph12ryASl')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/8ph12ryASl')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/8ph12ryASl" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="rau má brazil">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -85,8 +93,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Rau Má Brazil</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">12.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/30jE6IL09X" onclick="handleLink(event, 'https://s.shopee.vn/30jE6IL09X')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/30jE6IL09X')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/30jE6IL09X" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="rau thơm thủy sinh">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -97,8 +104,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Rau Thơm Thủy Sinh</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">19.999đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5q3PTZLnZW" onclick="handleLink(event, 'https://s.shopee.vn/5q3PTZLnZW')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5q3PTZLnZW')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5q3PTZLnZW" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="tân đế tài hồng">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -109,8 +115,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Tân Đế Tài Hồng</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5AnigQO6X1" onclick="handleLink(event, 'https://s.shopee.vn/5AnigQO6X1')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5AnigQO6X1')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5AnigQO6X1" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vảy ốc siêu đỏ rotala colorata">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -121,8 +126,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vảy Ốc Siêu Đỏ ROTALA COLORATA</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">15.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/9pZYF2ljxx" onclick="handleLink(event, 'https://s.shopee.vn/9pZYF2ljxx')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/9pZYF2ljxx')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/9pZYF2ljxx" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vảy ốc ngọc trai">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -133,8 +137,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vảy Ốc Ngọc Trai</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/40blIvPAs3" onclick="handleLink(event, 'https://s.shopee.vn/40blIvPAs3')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/40blIvPAs3')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/40blIvPAs3" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vảy ốc xanh cao">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -145,8 +148,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vảy Ốc Xanh Cao</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/8V4AfM8KoN" onclick="handleLink(event, 'https://s.shopee.vn/8V4AfM8KoN')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/8V4AfM8KoN')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/8V4AfM8KoN" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="rong xương cá">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -157,8 +159,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Rong Xương Cá</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">16.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/6Kzg5Kqr4q" onclick="handleLink(event, 'https://s.shopee.vn/6Kzg5Kqr4q')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/6Kzg5Kqr4q')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/6Kzg5Kqr4q" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="huyết thái dương">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -169,8 +170,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Huyết Thái Dương</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">10.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/2BA77lCSwN" onclick="handleLink(event, 'https://s.shopee.vn/2BA77lCSwN')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/2BA77lCSwN')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/2BA77lCSwN" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="tiêu thảo nâu">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -181,8 +181,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Tiêu Thảo Nâu</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5fjzIYCFmO" onclick="handleLink(event, 'https://s.shopee.vn/5fjzIYCFmO')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5fjzIYCFmO')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5fjzIYCFmO" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="tre thủy sinh">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -193,8 +192,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Tre Thủy Sinh</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5VQZ6He3k4" onclick="handleLink(event, 'https://s.shopee.vn/5VQZ6He3k4')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5VQZ6He3k4')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5VQZ6He3k4" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="diệp hồng tài">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -205,8 +203,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Diệp Hồng Tài</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/LiSwuL5oy" onclick="handleLink(event, 'https://s.shopee.vn/LiSwuL5oy')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/LiSwuL5oy')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/LiSwuL5oy" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="lệ nhi tím">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -217,8 +214,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Lệ Nhi Tím</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">30.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/W1t9KUtnD" onclick="handleLink(event, 'https://s.shopee.vn/W1t9KUtnD')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/W1t9KUtnD')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/W1t9KUtnD" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="ráy lá tròn">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -229,8 +225,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Ráy Lá Tròn</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">31.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/2LTZ6sq7RV" onclick="handleLink(event, 'https://s.shopee.vn/2LTZ6sq7RV')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/2LTZ6sq7RV')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/2LTZ6sq7RV" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="ráy nana lá nhỏ">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -241,8 +236,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Ráy Nana Lá Nhỏ</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">30.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4LEdUlA6cN" onclick="handleLink(event, 'https://s.shopee.vn/4LEdUlA6cN')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4LEdUlA6cN')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4LEdUlA6cN" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="ráy lá dài">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -253,8 +247,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Ráy Lá Dài</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">31.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4AvDIVeKIb" onclick="handleLink(event, 'https://s.shopee.vn/4AvDIVeKIb')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4AvDIVeKIb')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4AvDIVeKIb" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cây lưỡi mèo">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -265,8 +258,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cây Lưỡi Mèo</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">33.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/40bn6E3a2i" onclick="handleLink(event, 'https://s.shopee.vn/40bn6E3a2i')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/40bn6E3a2i')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/40bn6E3a2i" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="lá hán xanh gắn giá thể">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -277,8 +269,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Lá Hán Xanh Gắn Giá Thể</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">45.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/AKVqduSMh0" onclick="handleLink(event, 'https://s.shopee.vn/AKVqduSMh0')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/AKVqduSMh0')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/AKVqduSMh0" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="dương xỉ java">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -289,8 +280,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Dương Xỉ Java</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">38.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1VuS7m6ZhU" onclick="handleLink(event, 'https://s.shopee.vn/1VuS7m6ZhU')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1VuS7m6ZhU')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1VuS7m6ZhU" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="hẹ nước gắn giá thể">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -301,8 +291,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Hẹ Nước Gắn Giá Thể</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">60.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4AvDIhYF2g" onclick="handleLink(event, 'https://s.shopee.vn/4AvDIhYF2g')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4AvDIhYF2g')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4AvDIhYF2g" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="tiêu thảo pava">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -313,8 +302,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Tiêu Thảo Pava</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">35.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/70FOg5kZy6" onclick="handleLink(event, 'https://s.shopee.vn/70FOg5kZy6')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/70FOg5kZy6')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/70FOg5kZy6" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="la hán đỏ giá thể">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -325,8 +313,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">La Hán Đỏ Giá Thể</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">45.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/70FOjIdPK2" onclick="handleLink(event, 'https://s.shopee.vn/70FOjIdPK2')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/70FOjIdPK2')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/70FOjIdPK2" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div></div></div>
         </section>
         <section class="category-section mb-8" id="Cây-thủy-sinh-(cần-CO2)">
@@ -343,8 +330,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Trân Châu Ngọc Trai</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">40.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/6fcWQYi9tE" onclick="handleLink(event, 'https://s.shopee.vn/6fcWQYi9tE')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/6fcWQYi9tE')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/6fcWQYi9tE" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="ngưu mao chiên">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -355,8 +341,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Ngưu Mao Chiên</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">39.999đ</p>
                 </div>
-                <a href="https://s.shopee.vn/AUpEzkQLIS" onclick="handleLink(event, 'https://s.shopee.vn/AUpEzkQLIS')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/AUpEzkQLIS')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/AUpEzkQLIS" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="ngưu mao chiên lùn xòe lá nước">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -367,8 +352,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">30.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7VBdSUu8vv" onclick="handleLink(event, 'https://s.shopee.vn/7VBdSUu8vv')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7VBdSUu8vv')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7VBdSUu8vv" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="rêu mini taiwan">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -379,8 +363,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Rêu Mini Taiwan</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">40.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/3LM6MStrIE" onclick="handleLink(event, 'https://s.shopee.vn/3LM6MStrIE')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/3LM6MStrIE')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/3LM6MStrIE" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div></div></div>
         </section>
         <section class="category-section mb-8" id="Combo">
@@ -397,8 +380,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Combo Vật Liệu Lọc</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">8.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/2BA8y2Kpgx" onclick="handleLink(event, 'https://s.shopee.vn/2BA8y2Kpgx')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/2BA8y2Kpgx')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/2BA8y2Kpgx" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cây thủy sinh gắn giá thể">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -409,8 +391,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cây Thủy Sinh Gắn Giá Thể</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">40.500đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1gDsN9dBS3" onclick="handleLink(event, 'https://s.shopee.vn/1gDsN9dBS3')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1gDsN9dBS3')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1gDsN9dBS3" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cây thủy sinh cắt cắm">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -421,8 +402,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cây Thủy Sinh Cắt Cắm</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">35.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4frTwobKHU" onclick="handleLink(event, 'https://s.shopee.vn/4frTwobKHU')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4frTwobKHU')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4frTwobKHU" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="lá thủy nữ">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -433,8 +413,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Lá Thủy Nữ</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">115.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7fV5WT9HF8" onclick="handleLink(event, 'https://s.shopee.vn/7fV5WT9HF8')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7fV5WT9HF8')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7fV5WT9HF8" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="combo 5-20 cây thủy sinh cắt cắm">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -445,8 +424,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Combo 5-20 Cây Thủy Sinh Cắt Cắm</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">31.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/AUpGtpPJGB" onclick="handleLink(event, 'https://s.shopee.vn/AUpGtpPJGB')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/AUpGtpPJGB')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/AUpGtpPJGB" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="combo cây lá cạn">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -457,8 +435,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Combo Cây Lá Cạn</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">31.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4frTx9VjMB" onclick="handleLink(event, 'https://s.shopee.vn/4frTx9VjMB')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4frTx9VjMB')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4frTx9VjMB" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="combo tiểu bảo tháp">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -469,8 +446,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Combo Tiểu Bảo Tháp</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">35.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/BP4av3NTc" onclick="handleLink(event, 'https://s.shopee.vn/BP4av3NTc')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/BP4av3NTc')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/BP4av3NTc" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div></div></div>
         </section>
         <section class="category-section mb-8" id="Phụ-kiện-thủy-sinh">
@@ -487,8 +463,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Keo Dán Cây</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">14.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/9fG9qTrxXq" onclick="handleLink(event, 'https://s.shopee.vn/9fG9qTrxXq')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/9fG9qTrxXq')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/9fG9qTrxXq" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="nhíp trồng cây">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -499,8 +474,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Nhíp Trồng Cây</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">30.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/9fG9qsHFwa" onclick="handleLink(event, 'https://s.shopee.vn/9fG9qsHFwa')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/9fG9qsHFwa')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/9fG9qsHFwa" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vitamin c cho cá">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -511,8 +485,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vitamin C Cho Cá</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">65.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/W1uwJlll5" onclick="handleLink(event, 'https://s.shopee.vn/W1uwJlll5')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/W1uwJlll5')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/W1uwJlll5" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cục tẩy cặn canxi">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -523,8 +496,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cục Tẩy Cặn Canxi</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">21.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4VY3hjFFfh" onclick="handleLink(event, 'https://s.shopee.vn/4VY3hjFFfh')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4VY3hjFFfh')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4VY3hjFFfh" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cám trùn huyết vibra">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -535,8 +507,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cám Trùn Huyết Vibra</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">65.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5L7AhJ99Is" onclick="handleLink(event, 'https://s.shopee.vn/5L7AhJ99Is')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5L7AhJ99Is')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5L7AhJ99Is" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cám trùn huyết blood worm">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -547,8 +518,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cám Trùn Huyết Blood Worm</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">115.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/6KzhtBwucI" onclick="handleLink(event, 'https://s.shopee.vn/6KzhtBwucI')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/6KzhtBwucI')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/6KzhtBwucI" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vi sinh sống biozym">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -559,8 +529,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vi Sinh Sống Biozym</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">480.200đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1BHbjn3ukQ" onclick="handleLink(event, 'https://s.shopee.vn/1BHbjn3ukQ')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1BHbjn3ukQ')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="đèn rọi lazy magic">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -571,8 +540,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Đèn Rọi Lazy Magic</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">108.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1BHbjn3ukQ" onclick="handleLink(event, 'https://s.shopee.vn/1BHbjn3ukQ')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1BHbjn3ukQ')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="methylene blue yee">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -583,8 +551,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Methylene Blue Yee</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">55.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/40bn75193r" onclick="handleLink(event, 'https://s.shopee.vn/40bn75193r')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/40bn75193r')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/40bn75193r" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="phân nước đa lượng">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -595,8 +562,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Phân Nước Đa Lượng</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">76.440đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1VuS8ahEKG" onclick="handleLink(event, 'https://s.shopee.vn/1VuS8ahEKG')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1VuS8ahEKG')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1VuS8ahEKG" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="bột tím sát khuẩn cá">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -607,8 +573,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Bột Tím Sát Khuẩn Cá</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">75.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/6KzhtS1rP6" onclick="handleLink(event, 'https://s.shopee.vn/6KzhtS1rP6')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/6KzhtS1rP6')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/6KzhtS1rP6" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vi sinh biozym aqua">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -619,8 +584,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vi Sinh Biozym Aqua</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">40.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/2VmzKeP6ex" onclick="handleLink(event, 'https://s.shopee.vn/2VmzKeP6ex')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/2VmzKeP6ex')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/2VmzKeP6ex" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cám dán dr+ brine shrimp">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -631,8 +595,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cám Dán DR+ Brine Shrimp</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">100.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/AACQT2t3a0" onclick="handleLink(event, 'https://s.shopee.vn/AACQT2t3a0')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/AACQT2t3a0')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/AACQT2t3a0" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="dung dịch khử clo">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -643,8 +606,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Dung Dịch Khử Clo</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">100.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7poVgoDVxl" onclick="handleLink(event, 'https://s.shopee.vn/7poVgoDVxl')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7poVgoDVxl')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7poVgoDVxl" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vi sinh koika">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -655,8 +617,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vi Sinh Koika</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">33.900đ</p>
                 </div>
-                <a href="https://s.shopee.vn/70FOhL9VEq" onclick="handleLink(event, 'https://s.shopee.vn/70FOhL9VEq')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/70FOhL9VEq')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/70FOhL9VEq" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="dung dịch khử clo koika detox">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -667,8 +628,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Dung Dịch Khử Clo Koika Detox</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">31.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/1Lb1x4B0f4" onclick="handleLink(event, 'https://s.shopee.vn/1Lb1x4B0f4')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/1Lb1x4B0f4')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/1Lb1x4B0f4" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="men vi sinh extra bio">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -679,8 +639,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Men Vi Sinh Extra Bio</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">105.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/3VfWX4X19t" onclick="handleLink(event, 'https://s.shopee.vn/3VfWX4X19t')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/3VfWX4X19t')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/3VfWX4X19t" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="đèn neo helios flat">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -691,8 +650,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Đèn Neo Helios Flat</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">112.700đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7fV5UkK7Vj" onclick="handleLink(event, 'https://s.shopee.vn/7fV5UkK7Vj')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7fV5UkK7Vj')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7fV5UkK7Vj" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="khăn lọc bụi mịn">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -703,8 +661,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Khăn Lọc Bụi Mịn</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">15.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/LiUlSu2uv" onclick="handleLink(event, 'https://s.shopee.vn/LiUlSu2uv')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/LiUlSu2uv')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/LiUlSu2uv" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="thức ăn biozym discus">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -715,8 +672,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Thức Ăn Biozym Discus</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">110.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/qelMPrKmj" onclick="handleLink(event, 'https://s.shopee.vn/qelMPrKmj')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/qelMPrKmj')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/qelMPrKmj" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="lọc váng sunsun">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -727,8 +683,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Lọc váng SunSun</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">83.300đ</p>
                 </div>
-                <a href="https://s.shopee.vn/gLLAA4Ie9" onclick="handleLink(event, 'https://s.shopee.vn/gLLAA4Ie9')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/gLLAA4Ie9')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/gLLAA4Ie9" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="dao cạo rêu mufan">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -739,8 +694,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Dao Cạo Rêu Mufan</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">115.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/6pvyVX3STq" onclick="handleLink(event, 'https://s.shopee.vn/6pvyVX3STq')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/6pvyVX3STq')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/6pvyVX3STq" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="máy sủi oxy">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -751,8 +705,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Máy Sủi Oxy</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">45.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/qelNHShcI" onclick="handleLink(event, 'https://s.shopee.vn/qelNHShcI')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/qelNHShcI')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/qelNHShcI" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="lọc thác rld">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -763,8 +716,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Lọc Thác RLD</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">169.900đ</p>
                 </div>
-                <a href="https://s.shopee.vn/qelNHShcI" onclick="handleLink(event, 'https://s.shopee.vn/qelNHShcI')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/qelNHShcI')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/qelNHShcI" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div></div></div>
         </section>
         <section class="category-section mb-8" id="Cốt-nền,-vật-liệu-lọc">
@@ -781,8 +733,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Giá Thể</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">7.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/AUpGpyTFif" onclick="handleLink(event, 'https://s.shopee.vn/AUpGpyTFif')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/AUpGpyTFif')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/AUpGpyTFif" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cát mix siêu sạch">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -793,8 +744,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cát Mix Siêu Sạch</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">15.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/qelKgo9ZQ" onclick="handleLink(event, 'https://s.shopee.vn/qelKgo9ZQ')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/qelKgo9ZQ')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/qelKgo9ZQ" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vật liệu lọc mattrix - hàng thùng 100">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -805,8 +755,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vật Liệu Lọc Mattrix - Hàng Thùng 100</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">57.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7VBfHdozN7" onclick="handleLink(event, 'https://s.shopee.vn/7VBfHdozN7')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7VBfHdozN7')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7VBfHdozN7" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vật liệu lọc mattrix pond">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -817,8 +766,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vật Liệu Lọc Mattrix Pond</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">69.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/8fNcftqrZC" onclick="handleLink(event, 'https://s.shopee.vn/8fNcftqrZC')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/8fNcftqrZC')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/8fNcftqrZC" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vật liệu lọc mattrix chiết lẻ">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -829,8 +777,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vật Liệu Lọc Mattrix Chiết Lẻ</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">22.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/9KdJT6xBWk" onclick="handleLink(event, 'https://s.shopee.vn/9KdJT6xBWk')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/9KdJT6xBWk')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/9KdJT6xBWk" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="vật liệu lọc purigen magic d">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -841,8 +788,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Vật Liệu Lọc Purigen Magic D</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">69.580đ</p>
                 </div>
-                <a href="https://s.shopee.vn/5fk16WJ7sW" onclick="handleLink(event, 'https://s.shopee.vn/5fk16WJ7sW')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/5fk16WJ7sW')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/5fk16WJ7sW" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="phân nền senda">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -853,8 +799,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Phân Nền Senda</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">34.950đ</p>
                 </div>
-                <a href="https://s.shopee.vn/2VmzMGX6lE" onclick="handleLink(event, 'https://s.shopee.vn/2VmzMGX6lE')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/2VmzMGX6lE')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/2VmzMGX6lE" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="nền trang trí bể cá">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -865,8 +810,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Nền Trang Trí Bể Cá</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">14.900đ</p>
                 </div>
-                <a href="https://s.shopee.vn/7VBfJaMSZc" onclick="handleLink(event, 'https://s.shopee.vn/7VBfJaMSZc')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/7VBfJaMSZc')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/7VBfJaMSZc" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="nham thạch đỏ">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -877,8 +821,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Nham Thạch Đỏ</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">19.900đ</p>
                 </div>
-                <a href="https://s.shopee.vn/4qAu8j6aCd" onclick="handleLink(event, 'https://s.shopee.vn/4qAu8j6aCd')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/4qAu8j6aCd')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/4qAu8j6aCd" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="sứ viên">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -889,8 +832,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Sứ Viên</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">18.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/8KkmJKnEZn" onclick="handleLink(event, 'https://s.shopee.vn/8KkmJKnEZn')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/8KkmJKnEZn')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/8KkmJKnEZn" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="sạn suối">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -901,8 +843,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Sạn Suối</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">12.000đ</p>
                 </div>
-                <a href="https://s.shopee.vn/50UKLKsZEY" onclick="handleLink(event, 'https://s.shopee.vn/50UKLKsZEY')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/50UKLKsZEY')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/50UKLKsZEY" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="sỏi 3 màu">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -913,8 +854,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Sỏi 3 Màu</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">20.000đ</p>
                 </div>
-                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" onclick="handleLink(event, 'https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="cát nắng vàng">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -925,8 +865,7 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Cát nắng vàng</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">28.000đ</p>
                 </div>
-                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" onclick="handleLink(event, 'https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div>
             <div class="swiper-slide product-card bg-white rounded-[2rem] shadow-sm border border-slate-100 p-3 flex flex-col" data-name="sỏi đồng">
                 <div class="relative overflow-hidden rounded-[1.5rem]">
@@ -937,39 +876,31 @@
                     <h3 class="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">Sỏi Đồng</h3>
                     <p class="text-emerald-600 font-bold text-lg mt-1">24.500đ</p>
                 </div>
-                <a href="https://s.shopee.vn/10yBa99Wvu" onclick="handleLink(event, 'https://s.shopee.vn/10yBa99Wvu')" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform mb-2">Mua ngay</a>
-                <button onclick="copyLink('https://s.shopee.vn/10yBa99Wvu')" class="w-full py-2 border border-slate-200 text-slate-500 rounded-xl text-[9px] font-medium">Copy Link</button>
+                <a href="https://s.shopee.vn/10yBa99Wvu" class="w-full py-3 bg-slate-900 text-white rounded-xl text-[10px] font-bold text-center uppercase tracking-widest active:scale-95 transition-transform">Săn Deal Ngay</a>
             </div></div></div>
         </section></main>
 
-    <nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[85%] max-w-sm bg-slate-900/95 backdrop-blur-2xl rounded-3xl py-4 px-8 flex justify-between items-center shadow-2xl z-50 border border-white/10">
+    <nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[85%] max-w-sm bg-slate-900/95 backdrop-blur-2xl rounded-[2rem] py-4 px-8 flex justify-between items-center shadow-2xl z-50 border border-white/10">
         <a href="#" class="text-white text-xl">🏠</a>
         <a href="#Combo" class="text-white/40 text-xl">🎁</a>
-        <a href="https://zalo.me/your-id" target="_blank" class="text-white/40 text-xl">💬</a>
+        <a href="#Phụ-kiện-thủy-sinh" class="text-white/40 text-xl">🛠️</a>
         <a href="#Cá-cảnh" class="text-white/40 text-xl">🐠</a>
     </nav>
 
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swipers = new Swiper(".mySwiper", { slidesPerView: 1.35, spaceBetween: 16, freeMode: true });
 
-        // Phát hiện trình duyệt TikTok
-        const isTikTok = /TikTok/i.test(navigator.userAgent);
+        // Tự động hiện thông báo khi ở trong TikTok
+        const ua = navigator.userAgent || navigator.vendor || window.opera;
+        const isTikTok = (ua.indexOf("TikTok") > -1) || (ua.indexOf("Musicaly") > -1);
+        
         if (isTikTok) {
-            document.getElementById('tiktok-notice').style.display = 'block';
-        }
-
-        // Xử lý mở link
-        function handleLink(e, url) {
-            // TikTok thường chặn redirect tự động, ta cố gắng mở trực tiếp
-            window.location.href = url;
-        }
-
-        // Copy link dự phòng
-        function copyLink(url) {
-            navigator.clipboard.writeText(url).then(() => {
-                alert('Đã copy link! Bạn có thể dán vào trình duyệt hoặc Shopee.');
-            });
+            const notice = document.getElementById('tiktok-notice');
+            notice.style.display = 'block';
+            // Đẩy thanh search xuống một chút để không bị đè
+            document.getElementById('search-sticky').style.top = notice.offsetHeight + 'px';
         }
 
         // Tìm kiếm
