@@ -1,523 +1,1130 @@
-{
-  "Cây thủy sinh (cần CO2)": [
-    {
-      "name": "Trân Châu Ngọc Trai",
-      "price": "40000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp",
-      "link": "https://s.shopee.vn/6fcWQYi9tE",
-      "tag": ""
-    },
-    {
-      "name": "Ngưu Mao Chiên",
-      "price": "39999",
-      "image": "https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp",
-      "link": "https://s.shopee.vn/AUpEzkQLIS",
-      "tag": ""
-    },
-    {
-      "name": "Ngưu Mao Chiên Lùn Xòe Lá Nước",
-      "price": "30000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp",
-      "link": "https://s.shopee.vn/7VBdSUu8vv",
-      "tag": ""
-    },
-    {
-      "name": "Rêu Mini Taiwan",
-      "price": "40000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m4akxqwxryjk72.webp",
-      "link": "https://s.shopee.vn/3LM6MStrIE",
-      "tag": ""
-    }
-  ],
-  "Cây thủy sinh (không cần CO2)": [
-    {
-      "name": "Bèo Rễ Đỏ",
-      "price": "15000",
-      "image": "https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp",
-      "link": "https://s.shopee.vn/5L78qKi3nv",
-      "tag": ""
-    },
-    {
-      "name": "Cỏ Chân Vịt",
-      "price": "5999",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp",
-      "link": "https://s.shopee.vn/7KsDE5bB0n",
-      "tag": ""
-    },
-    {
-      "name": "Liễu Răng Cưa",
-      "price": "10000",
-      "image": "https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp",
-      "link": "https://s.shopee.vn/8ph12ryASl",
-      "tag": ""
-    },
-    {
-      "name": "Rau Má Brazil",
-      "price": "12000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m65kavdgpkoz4c.webp",
-      "link": "https://s.shopee.vn/30jE6IL09X",
-      "tag": ""
-    },
-    {
-      "name": "Rau Thơm Thủy Sinh",
-      "price": "19999",
-      "image": "https://down-vn.img.susercontent.com/file/45e133e04e621e28e47748f1f6919050.webp",
-      "link": "https://s.shopee.vn/5q3PTZLnZW",
-      "tag": ""
-    },
-    {
-      "name": "Tân Đế Tài Hồng",
-      "price": "20000",
-      "image": "https://down-vn.img.susercontent.com/file/2192329c30c8453628b94bce3c786522.webp",
-      "link": "https://s.shopee.vn/5AnigQO6X1",
-      "tag": ""
-    },
-    {
-      "name": "Vảy Ốc Siêu Đỏ ROTALA COLORATA",
-      "price": "15000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lke43omhs1wc7a.webp",
-      "link": "https://s.shopee.vn/9pZYF2ljxx",
-      "tag": ""
-    },
-    {
-      "name": "Vảy Ốc Ngọc Trai",
-      "price": "20000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-md67si2b6kkt11.webp",
-      "link": "https://s.shopee.vn/40blIvPAs3",
-      "tag": ""
-    },
-    {
-      "name": "Vảy Ốc Xanh Cao",
-      "price": "20000",
-      "image": "https://down-vn.img.susercontent.com/file/db6f1cc2f8c39bf5d95213460a819317.webp",
-      "link": "https://s.shopee.vn/8V4AfM8KoN",
-      "tag": ""
-    },
-    {
-      "name": "Rong Xương Cá",
-      "price": "16000",
-      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67tdk55h36f45.webp",
-      "link": "https://s.shopee.vn/6Kzg5Kqr4q",
-      "tag": ""
-    },
-    {
-      "name": "Huyết Thái Dương",
-      "price": "10000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgi5tw1md2j348.webp",
-      "link": "https://s.shopee.vn/2BA77lCSwN",
-      "tag": ""
-    },
-    {
-      "name": "Tiêu Thảo Nâu",
-      "price": "20000",
-      "image": "https://down-zl-vn.img.susercontent.com/4450ec0c4cb166bcfae6ce3fb5e179f7.webp",
-      "link": "https://s.shopee.vn/5fjzIYCFmO",
-      "tag": ""
-    },
-    {
-      "name": "Tre Thủy Sinh",
-      "price": "20000",
-      "image": "https://down-zl-vn.img.susercontent.com/61c825dbeec6595f8ccaa8a3d1de5e6e.webp",
-      "link": "https://s.shopee.vn/5VQZ6He3k4",
-      "tag": ""
-    },
-    {
-      "name": "Diệp Hồng Tài",
-      "price": "20000",
-      "image": "https://down-zl-vn.img.susercontent.com/a2495d29754a3035a6b8962f3e633c17.webp",
-      "link": "https://s.shopee.vn/LiSwuL5oy",
-      "tag": ""
-    },
-    {
-      "name": "Lệ Nhi Tím",
-      "price": "30000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6gjb1bl2pugf7.webp",
-      "link": "https://s.shopee.vn/W1t9KUtnD",
-      "tag": ""
-    },
-    {
-      "name": "Ráy Lá Tròn",
-      "price": "31000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6nqnjqycoc804.webp",
-      "link": "https://s.shopee.vn/2LTZ6sq7RV",
-      "tag": ""
-    },
-    {
-      "name": "Ráy Nana Lá Nhỏ",
-      "price": "30000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx3kz6no9wpnbe.webp",
-      "link": "https://s.shopee.vn/4LEdUlA6cN",
-      "tag": ""
-    },
-    {
-      "name": "Ráy Lá Dài",
-      "price": "31000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-maca7es2328nd9.webp",
-      "link": "https://s.shopee.vn/4AvDIVeKIb",
-      "tag": ""
-    },
-    {
-      "name": "Cây Lưỡi Mèo",
-      "price": "33000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-ljqxt230j9h0a3.webp",
-      "link": "https://s.shopee.vn/40bn6E3a2i",
-      "tag": ""
-    },
-    {
-      "name": "Lá Hán Xanh Gắn Giá Thể",
-      "price": "45000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-ls2afr3bxbr831.webp",
-      "link": "https://s.shopee.vn/AKVqduSMh0",
-      "tag": ""
-    },
-    {
-      "name": "Dương Xỉ Java",
-      "price": "38000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mhmveam95sec81.webp",
-      "link": "https://s.shopee.vn/1VuS7m6ZhU",
-      "tag": ""
-    },
-    {
-      "name": "Hẹ Nước Gắn Giá Thể",
-      "price": "60000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-meiqvwphvnyf44.webp",
-      "link": "https://s.shopee.vn/4AvDIhYF2g",
-      "tag": ""
-    },
-    {
-      "name": "Tiêu Thảo Pava",
-      "price": "35000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6h0dowc1qhz89.webp",
-      "link": "https://s.shopee.vn/70FOg5kZy6",
-      "tag": ""
-    },
-    {
-      "name": "La Hán Đỏ Giá Thể",
-      "price": "45000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxybqb356ok962.webp",
-      "link": "https://s.shopee.vn/70FOjIdPK2",
-      "tag": ""
-    }
-  ],
-  "Cốt nền, vật liệu lọc": [
-    {
-      "name": "Giá Thể",
-      "price": "7000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-luu6or2je5uae5.webp",
-      "link": "https://s.shopee.vn/AUpGpyTFif",
-      "tag": ""
-    },
-    {
-      "name": "Cát Mix Siêu Sạch",
-      "price": "15000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfds5wl5lbt5a5.webp",
-      "link": "https://s.shopee.vn/qelKgo9ZQ",
-      "tag": ""
-    },
-    {
-      "name": "Vật Liệu Lọc Mattrix - Hàng Thùng 100",
-      "price": "57000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp",
-      "link": "https://s.shopee.vn/7VBfHdozN7",
-      "tag": ""
-    },
-    {
-      "name": "Vật Liệu Lọc Mattrix Pond",
-      "price": "69000",
-      "image": "https://down-zl-vn.img.susercontent.com/d5e9ad460ff4e44e4e93cdde6cdd9e72.webp",
-      "link": "https://s.shopee.vn/8fNcftqrZC",
-      "tag": ""
-    },
-    {
-      "name": "Vật Liệu Lọc Mattrix Chiết Lẻ",
-      "price": "22000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp",
-      "link": "https://s.shopee.vn/9KdJT6xBWk",
-      "tag": ""
-    },
-    {
-      "name": "Vật Liệu Lọc Purigen Magic D",
-      "price": "69580",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rfhg-m95w3henm4sgaf.webp",
-      "link": "https://s.shopee.vn/5fk16WJ7sW",
-      "tag": ""
-    },
-    {
-      "name": "Phân Nền Senda",
-      "price": "34950",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp",
-      "link": "https://s.shopee.vn/2VmzMGX6lE",
-      "tag": ""
-    },
-    {
-      "name": "Nền Trang Trí Bể Cá",
-      "price": "14900",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5dsolzpc814.webp",
-      "link": "https://s.shopee.vn/7VBfJaMSZc",
-      "tag": ""
-    },
-    {
-      "name": "Nham Thạch Đỏ",
-      "price": "19900",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5rvx84ge97d.webp",
-      "link": "https://s.shopee.vn/4qAu8j6aCd",
-      "tag": ""
-    },
-    {
-      "name": "Sứ Viên",
-      "price": "18000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lnpyh7yqo58aa6.webp",
-      "link": "https://s.shopee.vn/8KkmJKnEZn",
-      "tag": ""
-    },
-    {
-      "name": "Sạn Suối",
-      "price": "12000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp",
-      "link": "https://s.shopee.vn/50UKLKsZEY",
-      "tag": ""
-    },
-    {
-      "name": "Sỏi 3 Màu",
-      "price": "20000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp",
-      "link": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp",
-      "tag": ""
-    },
-    {
-      "name": "Cát nắng vàng",
-      "price": "28000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ibq24znlpwbf.webp",
-      "link": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp",
-      "tag": ""
-    },
-    {
-      "name": "Sỏi Đồng",
-      "price": "24500",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic779akqeq2a.webp",
-      "link": "https://s.shopee.vn/10yBa99Wvu",
-      "tag": ""
-    }
-  ],
-  "Phụ kiện thủy sinh": [
-    {
-      "name": "Keo Dán Cây",
-      "price": "14000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-22100-cmzh5de9v8hv3c.webp",
-      "link": "https://s.shopee.vn/9fG9qTrxXq",
-      "tag": ""
-    },
-    {
-      "name": "Nhíp Trồng Cây",
-      "price": "30000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mar0438pb72k02.webp",
-      "link": "https://s.shopee.vn/9fG9qsHFwa",
-      "tag": ""
-    },
-    {
-      "name": "Vitamin C Cho Cá",
-      "price": "65000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-822wp-mi307afvetj871.webp",
-      "link": "https://s.shopee.vn/W1uwJlll5",
-      "tag": ""
-    },
-    {
-      "name": "Cục Tẩy Cặn Canxi",
-      "price": "21000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfw88ix8579m74.webp",
-      "link": "https://s.shopee.vn/4VY3hjFFfh",
-      "tag": ""
-    },
-    {
-      "name": "Cám Trùn Huyết Vibra",
-      "price": "65000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-81zuy-mio65zmfxszoc4.webp",
-      "link": "https://s.shopee.vn/5L7AhJ99Is",
-      "tag": ""
-    },
-    {
-      "name": "Cám Trùn Huyết Blood Worm",
-      "price": "115000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mk3xorkt0etc16.webp",
-      "link": "https://s.shopee.vn/6KzhtBwucI",
-      "tag": ""
-    },
-    {
-      "name": "Vi Sinh Sống Biozym",
-      "price": "480200",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-23010-s0ekbpjau4lva0.webp",
-      "link": "https://s.shopee.vn/1BHbjn3ukQ",
-      "tag": ""
-    },
-    {
-      "name": "Đèn Rọi Lazy Magic",
-      "price": "108000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbhnicepe4xzb7.webp",
-      "link": "https://s.shopee.vn/1BHbjn3ukQ",
-      "tag": ""
-    },
-    {
-      "name": "Methylene Blue Yee",
-      "price": "55000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-melcdbn76x3a5e.webp",
-      "link": "https://s.shopee.vn/40bn75193r",
-      "tag": ""
-    },
-    {
-      "name": "Phân Nước Đa Lượng",
-      "price": "76440",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp",
-      "link": "https://s.shopee.vn/1VuS8ahEKG",
-      "tag": ""
-    },
-    {
-      "name": "Bột Tím Sát Khuẩn Cá",
-      "price": "75000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp",
-      "link": "https://s.shopee.vn/6KzhtS1rP6",
-      "tag": ""
-    },
-    {
-      "name": "Vi Sinh Biozym Aqua",
-      "price": "40000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-22110-pj2y9juiqckva3.webp",
-      "link": "https://s.shopee.vn/2VmzKeP6ex",
-      "tag": ""
-    },
-    {
-      "name": "Cám Dán DR+ Brine Shrimp",
-      "price": "100000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rcez-m6gog8x9uj23b6.webp",
-      "link": "https://s.shopee.vn/AACQT2t3a0",
-      "tag": ""
-    },
-    {
-      "name": "Dung Dịch Khử Clo",
-      "price": "100000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp",
-      "link": "https://s.shopee.vn/7poVgoDVxl",
-      "tag": ""
-    },
-    {
-      "name": "Vi Sinh Koika",
-      "price": "33900",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp",
-      "link": "https://s.shopee.vn/70FOhL9VEq",
-      "tag": ""
-    },
-    {
-      "name": "Dung Dịch Khử Clo Koika Detox",
-      "price": "31000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbc6pbgk7d0zd1.webp",
-      "link": "https://s.shopee.vn/1Lb1x4B0f4",
-      "tag": ""
-    },
-    {
-      "name": "Men Vi Sinh Extra Bio",
-      "price": "105000",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lr1fh8xehadge2.webp",
-      "link": "https://s.shopee.vn/3VfWX4X19t",
-      "tag": ""
-    },
-    {
-      "name": "Đèn Neo Helios Flat",
-      "price": "112700",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-m09yooedy7zh85.webp",
-      "link": "https://s.shopee.vn/7fV5UkK7Vj",
-      "tag": ""
-    },
-    {
-      "name": "Khăn Lọc Bụi Mịn",
-      "price": "15000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-7rd5y-lx3rcg14gnk863.webp",
-      "link": "https://s.shopee.vn/LiUlSu2uv",
-      "tag": ""
-    },
-    {
-      "name": "Thức Ăn Biozym Discus",
-      "price": "110000",
-      "image": "https://down-zl-vn.img.susercontent.com/d62c7e01afb981fcb6e57febe0f298f5.webp",
-      "link": "https://s.shopee.vn/qelMPrKmj",
-      "tag": ""
-    },
-    {
-      "name": "Lọc váng SunSun",
-      "price": "83300",
-      "image": "https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-lfoz2mrutg1wcc.webp",
-      "link": "https://s.shopee.vn/gLLAA4Ie9",
-      "tag": ""
-    },
-    {
-      "name": "Dao Cạo Rêu Mufan",
-      "price": "115000",
-      "image": "https://down-zl-vn.img.susercontent.com/sg-11134201-23020-gbddi2uv46mv5a.webp",
-      "link": "https://s.shopee.vn/6pvyVX3STq",
-      "tag": ""
-    },
-    {
-      "name": "Máy Sủi Oxy",
-      "price": "45000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp",
-      "link": "https://s.shopee.vn/qelNHShcI",
-      "tag": ""
-    },
-    {
-      "name": "Lọc Thác RLD",
-      "price": "169900",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ra0g-m9ps50kix8jm3f.webp",
-      "link": "https://s.shopee.vn/qelNHShcI",
-      "tag": ""
-    }
-  ],
-  "Combo": [
-    {
-      "name": "Combo Vật Liệu Lọc",
-      "price": "8000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mdya7bfph6gwcc.webp",
-      "link": "https://s.shopee.vn/2BA8y2Kpgx",
-      "tag": ""
-    },
-    {
-      "name": "Cây Thủy Sinh Gắn Giá Thể",
-      "price": "40500",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mdbga8364oqn59.webp",
-      "link": "https://s.shopee.vn/1gDsN9dBS3",
-      "tag": ""
-    },
-    {
-      "name": "Cây Thủy Sinh Cắt Cắm",
-      "price": "35000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lu57tw5xayov31.webp",
-      "link": "https://s.shopee.vn/4frTwobKHU",
-      "tag": ""
-    },
-    {
-      "name": "Lá Thủy Nữ",
-      "price": "115000",
-      "image": "https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-ly42kilkp2v731.webp",
-      "link": "https://s.shopee.vn/7fV5WT9HF8",
-      "tag": ""
-    },
-    {
-      "name": "Combo 5-20 Cây Thủy Sinh Cắt Cắm",
-      "price": "31000",
-      "image": "https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lv3dxquj468q67.webp",
-      "link": "https://s.shopee.vn/AUpGtpPJGB",
-      "tag": ""
-    },
-    {
-      "name": "Combo Cây Lá Cạn",
-      "price": "31000",
-      "image": "https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lwygfakxcqfvcc.webp",
-      "link": "https://s.shopee.vn/4frTx9VjMB",
-      "tag": ""
-    },
-    {
-      "name": "Combo Tiểu Bảo Tháp",
-      "price": "35000",
-      "image": "https://down-tx-vn.img.susercontent.com/vn-11134207-820l4-mfgzs3d37wnj56.webp",
-      "link": "https://s.shopee.vn/BP4av3NTc",
-      "tag": ""
-    }
-  ]
-}
+<!DOCTYPE html><html class="dark" lang="vi"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Thủy Sinh Cho Người Mới</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-high": "#1c2d28", "primary-fixed": "#6bfe9c", "surface-tint": "#4ae183",
+                      "on-surface-variant": "#bbcbbb", "surface-bright": "#2b3d37", "surface-container-highest": "#263833",
+                      "surface-container-lowest": "#02110d", "on-tertiary-fixed": "#231b00", "on-primary-container": "#005027",
+                      "surface": "#051612", "inverse-on-surface": "#22342e", "tertiary": "#f7c919", "secondary-container": "#1d4f40",
+                      "surface-container-low": "#0d1f1a", "inverse-primary": "#006d37", "on-secondary-fixed": "#002117",
+                      "secondary-fixed": "#baeed9", "secondary-fixed-dim": "#9ed1bd", "surface-variant": "#263833",
+                      "tertiary-container": "#d7ae00", "on-background": "#d2e7df", "error": "#ffb4ab", "on-tertiary-container": "#544300",
+                      "on-surface": "#d2e7df", "primary": "#54e98a", "background": "#051612", "surface-dim": "#051612",
+                      "error-container": "#93000a", "tertiary-fixed": "#ffe084", "on-secondary-fixed-variant": "#1d4f40",
+                      "on-error-container": "#ffdad6", "on-secondary-container": "#8dc0ac", "on-secondary": "#00382a",
+                      "on-tertiary": "#3c2f00", "on-tertiary-fixed-variant": "#574500", "secondary": "#9ed1bd",
+                      "primary-fixed-dim": "#4ae183", "on-primary-fixed-variant": "#005228", "on-primary": "#003919",
+                      "primary-container": "#2ecc71", "on-error": "#690005", "on-primary-fixed": "#00210c",
+                      "tertiary-fixed-dim": "#eec209", "outline-variant": "#3d4a3e", "inverse-surface": "#d2e7df",
+                      "surface-container": "#11231e", "outline": "#869486"
+              },
+              "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+              "spacing": { "container-max": "1200px", "unit": "8px", "margin-desktop": "40px", "stack-lg": "32px", "section-gap": "80px", "margin-mobile": "16px", "stack-md": "16px", "stack-sm": "8px", "gutter": "24px" },
+              "fontFamily": { "headline-md": ["Be Vietnam Pro"], "headline-lg-mobile": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "caption": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"] },
+              "fontSize": { "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}] }
+            },
+          }
+        }
+      </script>
+<style>
+        body { background-color: #0d1f1a; color: #d2e7df; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .glass-panel { background-color: rgba(20, 42, 36, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(46, 204, 113, 0.1); }
+        .ambient-glow { box-shadow: 0 0 20px rgba(46, 204, 113, 0.15); }
+        .snap-x { scroll-snap-type: x mandatory; }
+        .snap-start { scroll-snap-align: start; }
+    </style>
+</head>
+<body class="bg-surface-container-low font-body-md text-body-md text-on-surface antialiased overflow-x-hidden pb-16">
+<header class="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-md border-b border-primary/10">
+<div class="flex flex-col w-full max-w-container-max mx-auto">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 w-full">
+<div class="flex items-center gap-stack-md text-primary">
+<span class="material-symbols-outlined">waves</span>
+<h1 class="font-headline-md text-headline-md font-bold text-primary tracking-tight">Thủy Sinh Cho Người Mới</h1>
+</div>
+<button class="text-primary p-unit rounded-full hover:bg-primary/10 hover:text-primary active:scale-95 transition-all duration-200">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+<nav class="w-full px-margin-mobile md:px-margin-desktop pb-stack-sm overflow-x-auto no-scrollbar">
+<ul class="flex items-center gap-gutter w-max font-label-md text-label-md whitespace-nowrap">
+<li><a class="text-primary font-bold border-b-2 border-primary pb-1 inline-block" href="#cay-khong-co2">Cây không CO2</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pb-1 inline-block" href="#cay-can-co2">Cây cần CO2</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pb-1 inline-block" href="#combo">Combo</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pb-1 inline-block" href="#phu-kien">Phụ kiện</a></li>
+<li><a class="text-on-surface-variant hover:text-primary transition-colors pb-1 inline-block" href="#cot-nen">Cốt nền</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main class="w-full min-h-screen pt-24 pb-section-gap">
+<section class="relative w-full h-[85vh] min-h-[600px] flex items-center justify-center px-margin-mobile md:px-margin-desktop pb-section-gap overflow-hidden">
+<div class="absolute inset-0 w-full h-full z-0">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/60 to-surface-container-low/20 z-10"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-surface-container-low/80 via-transparent to-transparent z-10"></div>
+<img alt="Nature aquarium" class="w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200">
+</div>
+<div class="relative z-20 flex flex-col items-center justify-center text-center max-w-[800px] w-full gap-stack-lg pt-16">
+<div class="flex flex-col gap-stack-md items-center">
+<span class="font-label-md text-label-md text-primary-container tracking-widest uppercase bg-surface-container-high/50 backdrop-blur-sm px-4 py-1.5 rounded-full border border-primary/20">Mở bằng trình duyệt để xem đầy đủ nhất!</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-on-surface drop-shadow-md">Thủy Sinh Cho Người Mới</h2>
+</div>
+<div class="flex flex-wrap justify-center gap-stack-sm md:gap-stack-md w-full">
+<div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">group</span><span class="font-label-md text-label-md text-on-surface">5000+ Followers</span></div>
+<div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">video_library</span><span class="font-label-md text-label-md text-on-surface">144 Videos</span></div>
+<div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">star</span><span class="font-label-md text-label-md text-on-surface">15 Năm Kinh Nghiệm</span></div>
+</div>
+<a href="#suggested-section" class="mt-stack-md bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md px-8 py-4 rounded-full flex items-center gap-2 transition-all duration-300 ambient-glow hover:scale-105 active:scale-95">
+                    Bắt đầu ngay <span class="material-symbols-outlined animate-bounce">arrow_downward</span>
+</a>
+</div>
+</section>
+
+<section id="suggested-section" class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
+<div class="flex flex-col gap-stack-lg">
+<h2 class="font-headline-md text-headline-md text-primary font-bold text-center md:text-left">Sản Phẩm Đề Xuất</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-gutter">
+    
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Trân Châu Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Trân Châu Ngọc Trai</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">40000đ</span>
+            <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Ngưu Mao Chiên" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Ngưu Mao Chiên</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">39999đ</span>
+            <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Bèo Rễ Đỏ" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Bèo Rễ Đỏ</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">15000đ</span>
+            <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Cỏ Chân Vịt" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Cỏ Chân Vịt</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">5999đ</span>
+            <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Liễu Răng Cưa" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Liễu Răng Cưa</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">10000đ</span>
+            <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+        <div class="relative w-full aspect-square bg-surface-variant">
+            <img alt="Ngưu Mao Chiên Lùn Xòe Lá Nước" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp" loading="lazy">
+            
+        </div>
+        <div class="p-4 flex flex-col gap-2 flex-grow">
+            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
+            <span class="font-headline-md text-body-lg font-bold text-primary">30000đ</span>
+            <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+                MUA NGAY 🛒
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+    <section id="cay-can-co2" class="w-full max-w-container-max mx-auto py-stack-md">
+        <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop mb-stack-sm sticky top-24 bg-surface-container-low/90 backdrop-blur-sm z-30 py-2">
+            <h2 class="font-headline-md text-lg md:text-xl font-bold" style="color: #2ECC71;">🧪 Cây Thủy Sinh Cần CO2</h2>
+            <span class="font-label-md text-sm text-primary opacity-60">Vuốt ngang →</span>
+        </div>
+        <div class="flex overflow-x-auto snap-x no-scrollbar gap-stack-sm px-margin-mobile md:px-margin-desktop pb-stack-sm">
+            
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Trân Châu Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Trân Châu Ngọc Trai</h3>
+                <span class="font-bold text-primary text-sm">40000đ</span>
+                <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Ngưu Mao Chiên" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ngưu Mao Chiên</h3>
+                <span class="font-bold text-primary text-sm">39999đ</span>
+                <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Ngưu Mao Chiên Lùn Xòe Lá Nước" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
+                <span class="font-bold text-primary text-sm">30000đ</span>
+                <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Rêu Mini Taiwan" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m4akxqwxryjk72.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rêu Mini Taiwan</h3>
+                <span class="font-bold text-primary text-sm">40000đ</span>
+                <a href="https://s.shopee.vn/3LM6MStrIE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="cay-khong-co2" class="w-full max-w-container-max mx-auto py-stack-md">
+        <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop mb-stack-sm sticky top-24 bg-surface-container-low/90 backdrop-blur-sm z-30 py-2">
+            <h2 class="font-headline-md text-lg md:text-xl font-bold" style="color: #2ECC71;">🌿 Cây Thủy Sinh Không Cần CO2</h2>
+            <span class="font-label-md text-sm text-primary opacity-60">Vuốt ngang →</span>
+        </div>
+        <div class="flex overflow-x-auto snap-x no-scrollbar gap-stack-sm px-margin-mobile md:px-margin-desktop pb-stack-sm">
+            
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Bèo Rễ Đỏ" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Bèo Rễ Đỏ</h3>
+                <span class="font-bold text-primary text-sm">15000đ</span>
+                <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cỏ Chân Vịt" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cỏ Chân Vịt</h3>
+                <span class="font-bold text-primary text-sm">5999đ</span>
+                <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Liễu Răng Cưa" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Liễu Răng Cưa</h3>
+                <span class="font-bold text-primary text-sm">10000đ</span>
+                <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Rau Má Brazil" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m65kavdgpkoz4c.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rau Má Brazil</h3>
+                <span class="font-bold text-primary text-sm">12000đ</span>
+                <a href="https://s.shopee.vn/30jE6IL09X" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Rau Thơm Thủy Sinh" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/45e133e04e621e28e47748f1f6919050.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rau Thơm Thủy Sinh</h3>
+                <span class="font-bold text-primary text-sm">19999đ</span>
+                <a href="https://s.shopee.vn/5q3PTZLnZW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Tân Đế Tài Hồng" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/2192329c30c8453628b94bce3c786522.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tân Đế Tài Hồng</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/5AnigQO6X1" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vảy Ốc Siêu Đỏ ROTALA COLORATA" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lke43omhs1wc7a.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Siêu Đỏ ROTALA COLORATA</h3>
+                <span class="font-bold text-primary text-sm">15000đ</span>
+                <a href="https://s.shopee.vn/9pZYF2ljxx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vảy Ốc Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-md67si2b6kkt11.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Ngọc Trai</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/40blIvPAs3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vảy Ốc Xanh Cao" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/db6f1cc2f8c39bf5d95213460a819317.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Xanh Cao</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/8V4AfM8KoN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Rong Xương Cá" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67tdk55h36f45.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rong Xương Cá</h3>
+                <span class="font-bold text-primary text-sm">16000đ</span>
+                <a href="https://s.shopee.vn/6Kzg5Kqr4q" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Huyết Thái Dương" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgi5tw1md2j348.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Huyết Thái Dương</h3>
+                <span class="font-bold text-primary text-sm">10000đ</span>
+                <a href="https://s.shopee.vn/2BA77lCSwN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Tiêu Thảo Nâu" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/4450ec0c4cb166bcfae6ce3fb5e179f7.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tiêu Thảo Nâu</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/5fjzIYCFmO" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Tre Thủy Sinh" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/61c825dbeec6595f8ccaa8a3d1de5e6e.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tre Thủy Sinh</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/5VQZ6He3k4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Diệp Hồng Tài" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/a2495d29754a3035a6b8962f3e633c17.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Diệp Hồng Tài</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://s.shopee.vn/LiSwuL5oy" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Lệ Nhi Tím" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6gjb1bl2pugf7.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lệ Nhi Tím</h3>
+                <span class="font-bold text-primary text-sm">30000đ</span>
+                <a href="https://s.shopee.vn/W1t9KUtnD" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Ráy Lá Tròn" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6nqnjqycoc804.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Lá Tròn</h3>
+                <span class="font-bold text-primary text-sm">31000đ</span>
+                <a href="https://s.shopee.vn/2LTZ6sq7RV" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Ráy Nana Lá Nhỏ" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx3kz6no9wpnbe.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Nana Lá Nhỏ</h3>
+                <span class="font-bold text-primary text-sm">30000đ</span>
+                <a href="https://s.shopee.vn/4LEdUlA6cN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Ráy Lá Dài" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-maca7es2328nd9.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Lá Dài</h3>
+                <span class="font-bold text-primary text-sm">31000đ</span>
+                <a href="https://s.shopee.vn/4AvDIVeKIb" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cây Lưỡi Mèo" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-ljqxt230j9h0a3.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Lưỡi Mèo</h3>
+                <span class="font-bold text-primary text-sm">33000đ</span>
+                <a href="https://s.shopee.vn/40bn6E3a2i" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Lá Hán Xanh Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-ls2afr3bxbr831.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lá Hán Xanh Gắn Giá Thể</h3>
+                <span class="font-bold text-primary text-sm">45000đ</span>
+                <a href="https://s.shopee.vn/AKVqduSMh0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Dương Xỉ Java" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mhmveam95sec81.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dương Xỉ Java</h3>
+                <span class="font-bold text-primary text-sm">38000đ</span>
+                <a href="https://s.shopee.vn/1VuS7m6ZhU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Hẹ Nước Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-meiqvwphvnyf44.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Hẹ Nước Gắn Giá Thể</h3>
+                <span class="font-bold text-primary text-sm">60000đ</span>
+                <a href="https://s.shopee.vn/4AvDIhYF2g" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Tiêu Thảo Pava" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6h0dowc1qhz89.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tiêu Thảo Pava</h3>
+                <span class="font-bold text-primary text-sm">35000đ</span>
+                <a href="https://s.shopee.vn/70FOg5kZy6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="La Hán Đỏ Giá Thể" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxybqb356ok962.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">La Hán Đỏ Giá Thể</h3>
+                <span class="font-bold text-primary text-sm">45000đ</span>
+                <a href="https://s.shopee.vn/70FOjIdPK2" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="cot-nen" class="w-full max-w-container-max mx-auto py-stack-md">
+        <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop mb-stack-sm sticky top-24 bg-surface-container-low/90 backdrop-blur-sm z-30 py-2">
+            <h2 class="font-headline-md text-lg md:text-xl font-bold" style="color: #2ECC71;">🪨 Cốt Nền & Vật Liệu Lọc</h2>
+            <span class="font-label-md text-sm text-primary opacity-60">Vuốt ngang →</span>
+        </div>
+        <div class="flex overflow-x-auto snap-x no-scrollbar gap-stack-sm px-margin-mobile md:px-margin-desktop pb-stack-sm">
+            
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-luu6or2je5uae5.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Giá Thể</h3>
+                <span class="font-bold text-primary text-sm">7000đ</span>
+                <a href="https://s.shopee.vn/AUpGpyTFif" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cát Mix Siêu Sạch" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfds5wl5lbt5a5.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cát Mix Siêu Sạch</h3>
+                <span class="font-bold text-primary text-sm">15000đ</span>
+                <a href="https://s.shopee.vn/qelKgo9ZQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vật Liệu Lọc Mattrix - Hàng Thùng 100" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix - Hàng Thùng 100</h3>
+                <span class="font-bold text-primary text-sm">57000đ</span>
+                <a href="https://s.shopee.vn/7VBfHdozN7" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vật Liệu Lọc Mattrix Pond" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/d5e9ad460ff4e44e4e93cdde6cdd9e72.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix Pond</h3>
+                <span class="font-bold text-primary text-sm">69000đ</span>
+                <a href="https://s.shopee.vn/8fNcftqrZC" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vật Liệu Lọc Mattrix Chiết Lẻ" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix Chiết Lẻ</h3>
+                <span class="font-bold text-primary text-sm">22000đ</span>
+                <a href="https://s.shopee.vn/9KdJT6xBWk" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vật Liệu Lọc Purigen Magic D" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rfhg-m95w3henm4sgaf.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Purigen Magic D</h3>
+                <span class="font-bold text-primary text-sm">69580đ</span>
+                <a href="https://s.shopee.vn/5fk16WJ7sW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Phân Nền Senda" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Phân Nền Senda</h3>
+                <span class="font-bold text-primary text-sm">34950đ</span>
+                <a href="https://s.shopee.vn/2VmzMGX6lE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Nền Trang Trí Bể Cá" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5dsolzpc814.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nền Trang Trí Bể Cá</h3>
+                <span class="font-bold text-primary text-sm">14900đ</span>
+                <a href="https://s.shopee.vn/7VBfJaMSZc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Nham Thạch Đỏ" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5rvx84ge97d.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nham Thạch Đỏ</h3>
+                <span class="font-bold text-primary text-sm">19900đ</span>
+                <a href="https://s.shopee.vn/4qAu8j6aCd" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Sứ Viên" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lnpyh7yqo58aa6.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sứ Viên</h3>
+                <span class="font-bold text-primary text-sm">18000đ</span>
+                <a href="https://s.shopee.vn/8KkmJKnEZn" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Sạn Suối" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sạn Suối</h3>
+                <span class="font-bold text-primary text-sm">12000đ</span>
+                <a href="https://s.shopee.vn/50UKLKsZEY" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Sỏi 3 Màu" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sỏi 3 Màu</h3>
+                <span class="font-bold text-primary text-sm">20000đ</span>
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cát nắng vàng" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ibq24znlpwbf.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cát nắng vàng</h3>
+                <span class="font-bold text-primary text-sm">28000đ</span>
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Sỏi Đồng" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic779akqeq2a.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sỏi Đồng</h3>
+                <span class="font-bold text-primary text-sm">24500đ</span>
+                <a href="https://s.shopee.vn/10yBa99Wvu" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="phu-kien" class="w-full max-w-container-max mx-auto py-stack-md">
+        <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop mb-stack-sm sticky top-24 bg-surface-container-low/90 backdrop-blur-sm z-30 py-2">
+            <h2 class="font-headline-md text-lg md:text-xl font-bold" style="color: #2ECC71;">🛠️ Phụ Kiện Thủy Sinh</h2>
+            <span class="font-label-md text-sm text-primary opacity-60">Vuốt ngang →</span>
+        </div>
+        <div class="flex overflow-x-auto snap-x no-scrollbar gap-stack-sm px-margin-mobile md:px-margin-desktop pb-stack-sm">
+            
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Keo Dán Cây" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-22100-cmzh5de9v8hv3c.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Keo Dán Cây</h3>
+                <span class="font-bold text-primary text-sm">14000đ</span>
+                <a href="https://s.shopee.vn/9fG9qTrxXq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Nhíp Trồng Cây" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mar0438pb72k02.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nhíp Trồng Cây</h3>
+                <span class="font-bold text-primary text-sm">30000đ</span>
+                <a href="https://s.shopee.vn/9fG9qsHFwa" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vitamin C Cho Cá" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-822wp-mi307afvetj871.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vitamin C Cho Cá</h3>
+                <span class="font-bold text-primary text-sm">65000đ</span>
+                <a href="https://s.shopee.vn/W1uwJlll5" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cục Tẩy Cặn Canxi" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfw88ix8579m74.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cục Tẩy Cặn Canxi</h3>
+                <span class="font-bold text-primary text-sm">21000đ</span>
+                <a href="https://s.shopee.vn/4VY3hjFFfh" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cám Trùn Huyết Vibra" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-81zuy-mio65zmfxszoc4.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Trùn Huyết Vibra</h3>
+                <span class="font-bold text-primary text-sm">65000đ</span>
+                <a href="https://s.shopee.vn/5L7AhJ99Is" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cám Trùn Huyết Blood Worm" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mk3xorkt0etc16.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Trùn Huyết Blood Worm</h3>
+                <span class="font-bold text-primary text-sm">115000đ</span>
+                <a href="https://s.shopee.vn/6KzhtBwucI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vi Sinh Sống Biozym" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-23010-s0ekbpjau4lva0.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Sống Biozym</h3>
+                <span class="font-bold text-primary text-sm">480200đ</span>
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Đèn Rọi Lazy Magic" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbhnicepe4xzb7.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Đèn Rọi Lazy Magic</h3>
+                <span class="font-bold text-primary text-sm">108000đ</span>
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Methylene Blue Yee" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-melcdbn76x3a5e.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Methylene Blue Yee</h3>
+                <span class="font-bold text-primary text-sm">55000đ</span>
+                <a href="https://s.shopee.vn/40bn75193r" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Phân Nước Đa Lượng" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Phân Nước Đa Lượng</h3>
+                <span class="font-bold text-primary text-sm">76440đ</span>
+                <a href="https://s.shopee.vn/1VuS8ahEKG" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Bột Tím Sát Khuẩn Cá" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Bột Tím Sát Khuẩn Cá</h3>
+                <span class="font-bold text-primary text-sm">75000đ</span>
+                <a href="https://s.shopee.vn/6KzhtS1rP6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vi Sinh Biozym Aqua" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-22110-pj2y9juiqckva3.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Biozym Aqua</h3>
+                <span class="font-bold text-primary text-sm">40000đ</span>
+                <a href="https://s.shopee.vn/2VmzKeP6ex" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cám Dán DR+ Brine Shrimp" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcez-m6gog8x9uj23b6.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Dán DR+ Brine Shrimp</h3>
+                <span class="font-bold text-primary text-sm">100000đ</span>
+                <a href="https://s.shopee.vn/AACQT2t3a0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Dung Dịch Khử Clo" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dung Dịch Khử Clo</h3>
+                <span class="font-bold text-primary text-sm">100000đ</span>
+                <a href="https://s.shopee.vn/7poVgoDVxl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Vi Sinh Koika" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Koika</h3>
+                <span class="font-bold text-primary text-sm">33900đ</span>
+                <a href="https://s.shopee.vn/70FOhL9VEq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Dung Dịch Khử Clo Koika Detox" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbc6pbgk7d0zd1.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dung Dịch Khử Clo Koika Detox</h3>
+                <span class="font-bold text-primary text-sm">31000đ</span>
+                <a href="https://s.shopee.vn/1Lb1x4B0f4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Men Vi Sinh Extra Bio" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lr1fh8xehadge2.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Men Vi Sinh Extra Bio</h3>
+                <span class="font-bold text-primary text-sm">105000đ</span>
+                <a href="https://s.shopee.vn/3VfWX4X19t" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Đèn Neo Helios Flat" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-m09yooedy7zh85.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Đèn Neo Helios Flat</h3>
+                <span class="font-bold text-primary text-sm">112700đ</span>
+                <a href="https://s.shopee.vn/7fV5UkK7Vj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Khăn Lọc Bụi Mịn" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd5y-lx3rcg14gnk863.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Khăn Lọc Bụi Mịn</h3>
+                <span class="font-bold text-primary text-sm">15000đ</span>
+                <a href="https://s.shopee.vn/LiUlSu2uv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Thức Ăn Biozym Discus" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/d62c7e01afb981fcb6e57febe0f298f5.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Thức Ăn Biozym Discus</h3>
+                <span class="font-bold text-primary text-sm">110000đ</span>
+                <a href="https://s.shopee.vn/qelMPrKmj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Lọc váng SunSun" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-lfoz2mrutg1wcc.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lọc váng SunSun</h3>
+                <span class="font-bold text-primary text-sm">83300đ</span>
+                <a href="https://s.shopee.vn/gLLAA4Ie9" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Dao Cạo Rêu Mufan" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-23020-gbddi2uv46mv5a.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dao Cạo Rêu Mufan</h3>
+                <span class="font-bold text-primary text-sm">115000đ</span>
+                <a href="https://s.shopee.vn/6pvyVX3STq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Máy Sủi Oxy" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Máy Sủi Oxy</h3>
+                <span class="font-bold text-primary text-sm">45000đ</span>
+                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Lọc Thác RLD" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ra0g-m9ps50kix8jm3f.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lọc Thác RLD</h3>
+                <span class="font-bold text-primary text-sm">169900đ</span>
+                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="combo" class="w-full max-w-container-max mx-auto py-stack-md">
+        <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop mb-stack-sm sticky top-24 bg-surface-container-low/90 backdrop-blur-sm z-30 py-2">
+            <h2 class="font-headline-md text-lg md:text-xl font-bold" style="color: #2ECC71;">🎁 Combo</h2>
+            <span class="font-label-md text-sm text-primary opacity-60">Vuốt ngang →</span>
+        </div>
+        <div class="flex overflow-x-auto snap-x no-scrollbar gap-stack-sm px-margin-mobile md:px-margin-desktop pb-stack-sm">
+            
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Combo Vật Liệu Lọc" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mdya7bfph6gwcc.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Vật Liệu Lọc</h3>
+                <span class="font-bold text-primary text-sm">8000đ</span>
+                <a href="https://s.shopee.vn/2BA8y2Kpgx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cây Thủy Sinh Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mdbga8364oqn59.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Thủy Sinh Gắn Giá Thể</h3>
+                <span class="font-bold text-primary text-sm">40500đ</span>
+                <a href="https://s.shopee.vn/1gDsN9dBS3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Cây Thủy Sinh Cắt Cắm" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lu57tw5xayov31.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Thủy Sinh Cắt Cắm</h3>
+                <span class="font-bold text-primary text-sm">35000đ</span>
+                <a href="https://s.shopee.vn/4frTwobKHU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Lá Thủy Nữ" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-ly42kilkp2v731.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lá Thủy Nữ</h3>
+                <span class="font-bold text-primary text-sm">115000đ</span>
+                <a href="https://s.shopee.vn/7fV5WT9HF8" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Combo 5-20 Cây Thủy Sinh Cắt Cắm" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lv3dxquj468q67.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo 5-20 Cây Thủy Sinh Cắt Cắm</h3>
+                <span class="font-bold text-primary text-sm">31000đ</span>
+                <a href="https://s.shopee.vn/AUpGtpPJGB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Combo Cây Lá Cạn" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lwygfakxcqfvcc.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Cây Lá Cạn</h3>
+                <span class="font-bold text-primary text-sm">31000đ</span>
+                <a href="https://s.shopee.vn/4frTx9VjMB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        <div class="flex-none w-[160px] snap-start flex flex-col bg-surface-container-high rounded-lg overflow-hidden shadow-md">
+            <div class="w-full aspect-square bg-surface-variant">
+                <img alt="Combo Tiểu Bảo Tháp" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-820l4-mfgzs3d37wnj56.webp" loading="lazy">
+            </div>
+            <div class="p-3 flex flex-col gap-1 flex-grow">
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Tiểu Bảo Tháp</h3>
+                <span class="font-bold text-primary text-sm">35000đ</span>
+                <a href="https://s.shopee.vn/BP4av3NTc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                    MUA NGAY 🛒
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<div class="h-section-gap w-full"></div>
+</main>
+
+<footer class="w-full py-stack-lg bg-surface-container-lowest border-t border-primary/5">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop space-y-stack-md md:space-y-0 w-full max-w-container-max mx-auto mb-16">
+<div class="flex flex-col items-center md:items-start gap-stack-sm">
+<span class="font-headline-md text-headline-md text-primary font-bold">Thủy Sinh Cho Người Mới</span>
+<p class="font-caption text-caption text-on-surface-variant opacity-80">© 2024 Thủy Sinh Cho Người Mới. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<div class="fixed bottom-0 left-0 w-full h-16 bg-primary-container z-50 flex items-center justify-center px-margin-mobile shadow-[0_-4px_10px_rgba(0,0,0,0.1)]">
+<a class="flex items-center gap-2 text-on-primary-container font-bold text-body-md" href="https://shopee.vn" target="_blank">
+<span class="material-symbols-outlined">shopping_cart</span><span>Ghé shop Shopee của mình →</span>
+</a>
+</div>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) { header.classList.add('shadow-lg'); } 
+        else { header.classList.remove('shadow-lg'); }
+    });
+</script>
+</body></html>
