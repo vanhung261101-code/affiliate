@@ -69,21 +69,22 @@
 </div>
 </header>
 
-<main class="w-full min-h-screen pt-24 pb-section-gap">
+<main class="w-full min-h-screen pt-24 pb-section-gap relative z-10">
 <section class="relative w-full h-[85vh] min-h-[600px] flex items-center justify-center px-margin-mobile md:px-margin-desktop pb-section-gap overflow-hidden">
 <div class="absolute inset-0 w-full h-full z-0">
 <div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/60 to-surface-container-low/20 z-10"></div>
 <div class="absolute inset-0 bg-gradient-to-b from-surface-container-low/80 via-transparent to-transparent z-10"></div>
-<img alt="Nature aquarium" class="w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1603630138578-a45a87fa97e9?q=80">
+<img alt="Nature aquarium" class="w-full h-full object-cover object-center" src="https://cdn.britannica.com/29/121829-050-911F77EC/freshwater-aquarium.jpg">
 </div>
 <div class="relative z-20 flex flex-col items-center justify-center text-center max-w-[800px] w-full gap-stack-lg pt-16">
 <div class="flex flex-col gap-stack-md items-center">
-<span class="font-label-md text-label-md text-primary-container tracking-widest uppercase bg-surface-container-high/50 backdrop-blur-sm px-4 py-1.5 rounded-full border border-primary/20">Bạn ấn vào nút 3 chấm ở góc phải màn hình => mở trong trình duyệt để xem đầy đủ nhé!</span>
+<span class="font-label-md text-label-md text-primary-container tracking-widest uppercase bg-surface-container-high/50 backdrop-blur-sm px-4 py-1.5 rounded-full border border-primary/20">Mở bằng trình duyệt để xem đầy đủ nhất!</span>
 <h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-on-surface drop-shadow-md">Thủy Sinh Cho Người Mới</h2>
 </div>
 <div class="flex flex-wrap justify-center gap-stack-sm md:gap-stack-md w-full">
 <div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">group</span><span class="font-label-md text-label-md text-on-surface">5000+ Followers</span></div>
 <div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">video_library</span><span class="font-label-md text-label-md text-on-surface">144 Videos</span></div>
+<div class="glass-panel px-4 py-2 rounded-full flex items-center gap-2"><span class="material-symbols-outlined text-primary-container text-[18px]">star</span><span class="font-label-md text-label-md text-on-surface">15 Năm Kinh Nghiệm</span></div>
 </div>
 <a href="#suggested-section" class="mt-stack-md bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-label-md px-8 py-4 rounded-full flex items-center gap-2 transition-all duration-300 ambient-glow hover:scale-105 active:scale-95">
                     Bắt đầu ngay <span class="material-symbols-outlined animate-bounce">arrow_downward</span>
@@ -91,20 +92,20 @@
 </div>
 </section>
 
-<section id="suggested-section" class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg">
-<div class="flex flex-col gap-stack-lg">
+<section id="suggested-section" class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg relative z-30">
+<div class="flex flex-col gap-4 md:gap-stack-lg">
 <h2 class="font-headline-md text-headline-md text-primary font-bold text-center md:text-left">Sản Phẩm Đề Xuất</h2>
-<div class="grid grid-cols-2 md:grid-cols-3 gap-gutter">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-gutter">
     
     <div class="flex flex-col bg-surface-container-high rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
         <div class="relative w-full aspect-square bg-surface-variant">
             <img alt="Trân Châu Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Trân Châu Ngọc Trai</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">40000đ</span>
-            <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Trân Châu Ngọc Trai</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">40000đ</span>
+            <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -114,10 +115,10 @@
             <img alt="Ngưu Mao Chiên" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Ngưu Mao Chiên</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">39999đ</span>
-            <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Ngưu Mao Chiên</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">39999đ</span>
+            <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -127,10 +128,10 @@
             <img alt="Bèo Rễ Đỏ" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Bèo Rễ Đỏ</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">15000đ</span>
-            <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Bèo Rễ Đỏ</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">15000đ</span>
+            <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -140,10 +141,10 @@
             <img alt="Cỏ Chân Vịt" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Cỏ Chân Vịt</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">5999đ</span>
-            <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Cỏ Chân Vịt</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">5999đ</span>
+            <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -153,10 +154,10 @@
             <img alt="Liễu Răng Cưa" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Liễu Răng Cưa</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">10000đ</span>
-            <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Liễu Răng Cưa</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">10000đ</span>
+            <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -166,10 +167,10 @@
             <img alt="Ngưu Mao Chiên Lùn Xòe Lá Nước" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp" loading="lazy">
             
         </div>
-        <div class="p-4 flex flex-col gap-2 flex-grow">
-            <h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
-            <span class="font-headline-md text-body-lg font-bold text-primary">30000đ</span>
-            <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-sm py-2 rounded-lg transition-colors block">
+        <div class="p-3 md:p-4 flex flex-col gap-1 md:gap-2 flex-grow relative z-20">
+            <h3 class="font-label-md text-sm md:text-label-md text-on-surface line-clamp-2 min-h-[40px]">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
+            <span class="text-sm md:text-body-lg font-bold text-primary block">30000đ</span>
+            <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-2 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs md:text-sm py-2 rounded-lg transition-all block font-bold active:scale-95">
                 MUA NGAY 🛒
             </a>
         </div>
@@ -191,9 +192,9 @@
                 <img alt="Trân Châu Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Trân Châu Ngọc Trai</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Trân Châu Ngọc Trai</h3>
                 <span class="font-bold text-primary text-sm">40000đ</span>
-                <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/6fcWQYi9tE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -203,9 +204,9 @@
                 <img alt="Ngưu Mao Chiên" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ngưu Mao Chiên</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Ngưu Mao Chiên</h3>
                 <span class="font-bold text-primary text-sm">39999đ</span>
-                <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/AUpEzkQLIS" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -215,9 +216,9 @@
                 <img alt="Ngưu Mao Chiên Lùn Xòe Lá Nước" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Ngưu Mao Chiên Lùn Xòe Lá Nước</h3>
                 <span class="font-bold text-primary text-sm">30000đ</span>
-                <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7VBdSUu8vv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -227,9 +228,9 @@
                 <img alt="Rêu Mini Taiwan" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m4akxqwxryjk72.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rêu Mini Taiwan</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Rêu Mini Taiwan</h3>
                 <span class="font-bold text-primary text-sm">40000đ</span>
-                <a href="https://s.shopee.vn/3LM6MStrIE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/3LM6MStrIE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -248,9 +249,9 @@
                 <img alt="Bèo Rễ Đỏ" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Bèo Rễ Đỏ</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Bèo Rễ Đỏ</h3>
                 <span class="font-bold text-primary text-sm">15000đ</span>
-                <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5L78qKi3nv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -260,9 +261,9 @@
                 <img alt="Cỏ Chân Vịt" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cỏ Chân Vịt</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cỏ Chân Vịt</h3>
                 <span class="font-bold text-primary text-sm">5999đ</span>
-                <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7KsDE5bB0n" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -272,9 +273,9 @@
                 <img alt="Liễu Răng Cưa" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Liễu Răng Cưa</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Liễu Răng Cưa</h3>
                 <span class="font-bold text-primary text-sm">10000đ</span>
-                <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/8ph12ryASl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -284,9 +285,9 @@
                 <img alt="Rau Má Brazil" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m65kavdgpkoz4c.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rau Má Brazil</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Rau Má Brazil</h3>
                 <span class="font-bold text-primary text-sm">12000đ</span>
-                <a href="https://s.shopee.vn/30jE6IL09X" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/30jE6IL09X" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -296,9 +297,9 @@
                 <img alt="Rau Thơm Thủy Sinh" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/45e133e04e621e28e47748f1f6919050.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rau Thơm Thủy Sinh</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Rau Thơm Thủy Sinh</h3>
                 <span class="font-bold text-primary text-sm">19999đ</span>
-                <a href="https://s.shopee.vn/5q3PTZLnZW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5q3PTZLnZW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -308,9 +309,9 @@
                 <img alt="Tân Đế Tài Hồng" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/2192329c30c8453628b94bce3c786522.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tân Đế Tài Hồng</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Tân Đế Tài Hồng</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/5AnigQO6X1" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5AnigQO6X1" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -320,9 +321,9 @@
                 <img alt="Vảy Ốc Siêu Đỏ ROTALA COLORATA" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lke43omhs1wc7a.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Siêu Đỏ ROTALA COLORATA</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vảy Ốc Siêu Đỏ ROTALA COLORATA</h3>
                 <span class="font-bold text-primary text-sm">15000đ</span>
-                <a href="https://s.shopee.vn/9pZYF2ljxx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/9pZYF2ljxx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -332,9 +333,9 @@
                 <img alt="Vảy Ốc Ngọc Trai" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-md67si2b6kkt11.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Ngọc Trai</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vảy Ốc Ngọc Trai</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/40blIvPAs3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/40blIvPAs3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -344,9 +345,9 @@
                 <img alt="Vảy Ốc Xanh Cao" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/db6f1cc2f8c39bf5d95213460a819317.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vảy Ốc Xanh Cao</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vảy Ốc Xanh Cao</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/8V4AfM8KoN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/8V4AfM8KoN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -356,9 +357,9 @@
                 <img alt="Rong Xương Cá" class="w-full h-full object-cover" src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67tdk55h36f45.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Rong Xương Cá</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Rong Xương Cá</h3>
                 <span class="font-bold text-primary text-sm">16000đ</span>
-                <a href="https://s.shopee.vn/6Kzg5Kqr4q" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/6Kzg5Kqr4q" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -368,9 +369,9 @@
                 <img alt="Huyết Thái Dương" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgi5tw1md2j348.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Huyết Thái Dương</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Huyết Thái Dương</h3>
                 <span class="font-bold text-primary text-sm">10000đ</span>
-                <a href="https://s.shopee.vn/2BA77lCSwN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/2BA77lCSwN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -380,9 +381,9 @@
                 <img alt="Tiêu Thảo Nâu" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/4450ec0c4cb166bcfae6ce3fb5e179f7.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tiêu Thảo Nâu</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Tiêu Thảo Nâu</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/5fjzIYCFmO" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5fjzIYCFmO" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -392,9 +393,9 @@
                 <img alt="Tre Thủy Sinh" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/61c825dbeec6595f8ccaa8a3d1de5e6e.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tre Thủy Sinh</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Tre Thủy Sinh</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/5VQZ6He3k4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5VQZ6He3k4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -404,9 +405,9 @@
                 <img alt="Diệp Hồng Tài" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/a2495d29754a3035a6b8962f3e633c17.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Diệp Hồng Tài</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Diệp Hồng Tài</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://s.shopee.vn/LiSwuL5oy" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/LiSwuL5oy" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -416,9 +417,9 @@
                 <img alt="Lệ Nhi Tím" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6gjb1bl2pugf7.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lệ Nhi Tím</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Lệ Nhi Tím</h3>
                 <span class="font-bold text-primary text-sm">30000đ</span>
-                <a href="https://s.shopee.vn/W1t9KUtnD" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/W1t9KUtnD" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -428,9 +429,9 @@
                 <img alt="Ráy Lá Tròn" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6nqnjqycoc804.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Lá Tròn</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Ráy Lá Tròn</h3>
                 <span class="font-bold text-primary text-sm">31000đ</span>
-                <a href="https://s.shopee.vn/2LTZ6sq7RV" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/2LTZ6sq7RV" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -440,9 +441,9 @@
                 <img alt="Ráy Nana Lá Nhỏ" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx3kz6no9wpnbe.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Nana Lá Nhỏ</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Ráy Nana Lá Nhỏ</h3>
                 <span class="font-bold text-primary text-sm">30000đ</span>
-                <a href="https://s.shopee.vn/4LEdUlA6cN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4LEdUlA6cN" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -452,9 +453,9 @@
                 <img alt="Ráy Lá Dài" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-maca7es2328nd9.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Ráy Lá Dài</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Ráy Lá Dài</h3>
                 <span class="font-bold text-primary text-sm">31000đ</span>
-                <a href="https://s.shopee.vn/4AvDIVeKIb" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4AvDIVeKIb" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -464,9 +465,9 @@
                 <img alt="Cây Lưỡi Mèo" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-ljqxt230j9h0a3.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Lưỡi Mèo</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cây Lưỡi Mèo</h3>
                 <span class="font-bold text-primary text-sm">33000đ</span>
-                <a href="https://s.shopee.vn/40bn6E3a2i" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/40bn6E3a2i" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -476,9 +477,9 @@
                 <img alt="Lá Hán Xanh Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-ls2afr3bxbr831.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lá Hán Xanh Gắn Giá Thể</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Lá Hán Xanh Gắn Giá Thể</h3>
                 <span class="font-bold text-primary text-sm">45000đ</span>
-                <a href="https://s.shopee.vn/AKVqduSMh0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/AKVqduSMh0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -488,9 +489,9 @@
                 <img alt="Dương Xỉ Java" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mhmveam95sec81.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dương Xỉ Java</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Dương Xỉ Java</h3>
                 <span class="font-bold text-primary text-sm">38000đ</span>
-                <a href="https://s.shopee.vn/1VuS7m6ZhU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1VuS7m6ZhU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -500,9 +501,9 @@
                 <img alt="Hẹ Nước Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-meiqvwphvnyf44.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Hẹ Nước Gắn Giá Thể</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Hẹ Nước Gắn Giá Thể</h3>
                 <span class="font-bold text-primary text-sm">60000đ</span>
-                <a href="https://s.shopee.vn/4AvDIhYF2g" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4AvDIhYF2g" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -512,9 +513,9 @@
                 <img alt="Tiêu Thảo Pava" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6h0dowc1qhz89.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Tiêu Thảo Pava</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Tiêu Thảo Pava</h3>
                 <span class="font-bold text-primary text-sm">35000đ</span>
-                <a href="https://s.shopee.vn/70FOg5kZy6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/70FOg5kZy6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -524,9 +525,9 @@
                 <img alt="La Hán Đỏ Giá Thể" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxybqb356ok962.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">La Hán Đỏ Giá Thể</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">La Hán Đỏ Giá Thể</h3>
                 <span class="font-bold text-primary text-sm">45000đ</span>
-                <a href="https://s.shopee.vn/70FOjIdPK2" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/70FOjIdPK2" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -545,9 +546,9 @@
                 <img alt="Giá Thể" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-luu6or2je5uae5.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Giá Thể</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Giá Thể</h3>
                 <span class="font-bold text-primary text-sm">7000đ</span>
-                <a href="https://s.shopee.vn/AUpGpyTFif" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/AUpGpyTFif" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -557,9 +558,9 @@
                 <img alt="Cát Mix Siêu Sạch" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfds5wl5lbt5a5.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cát Mix Siêu Sạch</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cát Mix Siêu Sạch</h3>
                 <span class="font-bold text-primary text-sm">15000đ</span>
-                <a href="https://s.shopee.vn/qelKgo9ZQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/qelKgo9ZQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -569,9 +570,9 @@
                 <img alt="Vật Liệu Lọc Mattrix - Hàng Thùng 100" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix - Hàng Thùng 100</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vật Liệu Lọc Mattrix - Hàng Thùng 100</h3>
                 <span class="font-bold text-primary text-sm">57000đ</span>
-                <a href="https://s.shopee.vn/7VBfHdozN7" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7VBfHdozN7" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -581,9 +582,9 @@
                 <img alt="Vật Liệu Lọc Mattrix Pond" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/d5e9ad460ff4e44e4e93cdde6cdd9e72.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix Pond</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vật Liệu Lọc Mattrix Pond</h3>
                 <span class="font-bold text-primary text-sm">69000đ</span>
-                <a href="https://s.shopee.vn/8fNcftqrZC" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/8fNcftqrZC" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -593,9 +594,9 @@
                 <img alt="Vật Liệu Lọc Mattrix Chiết Lẻ" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Mattrix Chiết Lẻ</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vật Liệu Lọc Mattrix Chiết Lẻ</h3>
                 <span class="font-bold text-primary text-sm">22000đ</span>
-                <a href="https://s.shopee.vn/9KdJT6xBWk" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/9KdJT6xBWk" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -605,9 +606,9 @@
                 <img alt="Vật Liệu Lọc Purigen Magic D" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rfhg-m95w3henm4sgaf.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vật Liệu Lọc Purigen Magic D</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vật Liệu Lọc Purigen Magic D</h3>
                 <span class="font-bold text-primary text-sm">69580đ</span>
-                <a href="https://s.shopee.vn/5fk16WJ7sW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5fk16WJ7sW" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -617,9 +618,9 @@
                 <img alt="Phân Nền Senda" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Phân Nền Senda</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Phân Nền Senda</h3>
                 <span class="font-bold text-primary text-sm">34950đ</span>
-                <a href="https://s.shopee.vn/2VmzMGX6lE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/2VmzMGX6lE" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -629,9 +630,9 @@
                 <img alt="Nền Trang Trí Bể Cá" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5dsolzpc814.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nền Trang Trí Bể Cá</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Nền Trang Trí Bể Cá</h3>
                 <span class="font-bold text-primary text-sm">14900đ</span>
-                <a href="https://s.shopee.vn/7VBfJaMSZc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7VBfJaMSZc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -641,9 +642,9 @@
                 <img alt="Nham Thạch Đỏ" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5rvx84ge97d.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nham Thạch Đỏ</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Nham Thạch Đỏ</h3>
                 <span class="font-bold text-primary text-sm">19900đ</span>
-                <a href="https://s.shopee.vn/4qAu8j6aCd" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4qAu8j6aCd" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -653,9 +654,9 @@
                 <img alt="Sứ Viên" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lnpyh7yqo58aa6.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sứ Viên</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Sứ Viên</h3>
                 <span class="font-bold text-primary text-sm">18000đ</span>
-                <a href="https://s.shopee.vn/8KkmJKnEZn" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/8KkmJKnEZn" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -665,9 +666,9 @@
                 <img alt="Sạn Suối" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sạn Suối</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Sạn Suối</h3>
                 <span class="font-bold text-primary text-sm">12000đ</span>
-                <a href="https://s.shopee.vn/50UKLKsZEY" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/50UKLKsZEY" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -677,9 +678,9 @@
                 <img alt="Sỏi 3 Màu" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sỏi 3 Màu</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Sỏi 3 Màu</h3>
                 <span class="font-bold text-primary text-sm">20000đ</span>
-                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -689,9 +690,9 @@
                 <img alt="Cát nắng vàng" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ibq24znlpwbf.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cát nắng vàng</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cát nắng vàng</h3>
                 <span class="font-bold text-primary text-sm">28000đ</span>
-                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -701,9 +702,9 @@
                 <img alt="Sỏi Đồng" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic779akqeq2a.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Sỏi Đồng</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Sỏi Đồng</h3>
                 <span class="font-bold text-primary text-sm">24500đ</span>
-                <a href="https://s.shopee.vn/10yBa99Wvu" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/10yBa99Wvu" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -722,9 +723,9 @@
                 <img alt="Keo Dán Cây" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-22100-cmzh5de9v8hv3c.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Keo Dán Cây</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Keo Dán Cây</h3>
                 <span class="font-bold text-primary text-sm">14000đ</span>
-                <a href="https://s.shopee.vn/9fG9qTrxXq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/9fG9qTrxXq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -734,9 +735,9 @@
                 <img alt="Nhíp Trồng Cây" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mar0438pb72k02.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Nhíp Trồng Cây</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Nhíp Trồng Cây</h3>
                 <span class="font-bold text-primary text-sm">30000đ</span>
-                <a href="https://s.shopee.vn/9fG9qsHFwa" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/9fG9qsHFwa" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -746,9 +747,9 @@
                 <img alt="Vitamin C Cho Cá" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-822wp-mi307afvetj871.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vitamin C Cho Cá</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vitamin C Cho Cá</h3>
                 <span class="font-bold text-primary text-sm">65000đ</span>
-                <a href="https://s.shopee.vn/W1uwJlll5" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/W1uwJlll5" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -758,9 +759,9 @@
                 <img alt="Cục Tẩy Cặn Canxi" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfw88ix8579m74.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cục Tẩy Cặn Canxi</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cục Tẩy Cặn Canxi</h3>
                 <span class="font-bold text-primary text-sm">21000đ</span>
-                <a href="https://s.shopee.vn/4VY3hjFFfh" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4VY3hjFFfh" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -770,9 +771,9 @@
                 <img alt="Cám Trùn Huyết Vibra" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-81zuy-mio65zmfxszoc4.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Trùn Huyết Vibra</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cám Trùn Huyết Vibra</h3>
                 <span class="font-bold text-primary text-sm">65000đ</span>
-                <a href="https://s.shopee.vn/5L7AhJ99Is" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/5L7AhJ99Is" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -782,9 +783,9 @@
                 <img alt="Cám Trùn Huyết Blood Worm" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mk3xorkt0etc16.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Trùn Huyết Blood Worm</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cám Trùn Huyết Blood Worm</h3>
                 <span class="font-bold text-primary text-sm">115000đ</span>
-                <a href="https://s.shopee.vn/6KzhtBwucI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/6KzhtBwucI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -794,9 +795,9 @@
                 <img alt="Vi Sinh Sống Biozym" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-23010-s0ekbpjau4lva0.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Sống Biozym</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vi Sinh Sống Biozym</h3>
                 <span class="font-bold text-primary text-sm">480200đ</span>
-                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -806,9 +807,9 @@
                 <img alt="Đèn Rọi Lazy Magic" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbhnicepe4xzb7.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Đèn Rọi Lazy Magic</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Đèn Rọi Lazy Magic</h3>
                 <span class="font-bold text-primary text-sm">108000đ</span>
-                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1BHbjn3ukQ" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -818,9 +819,9 @@
                 <img alt="Methylene Blue Yee" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-melcdbn76x3a5e.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Methylene Blue Yee</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Methylene Blue Yee</h3>
                 <span class="font-bold text-primary text-sm">55000đ</span>
-                <a href="https://s.shopee.vn/40bn75193r" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/40bn75193r" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -830,9 +831,9 @@
                 <img alt="Phân Nước Đa Lượng" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Phân Nước Đa Lượng</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Phân Nước Đa Lượng</h3>
                 <span class="font-bold text-primary text-sm">76440đ</span>
-                <a href="https://s.shopee.vn/1VuS8ahEKG" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1VuS8ahEKG" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -842,9 +843,9 @@
                 <img alt="Bột Tím Sát Khuẩn Cá" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Bột Tím Sát Khuẩn Cá</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Bột Tím Sát Khuẩn Cá</h3>
                 <span class="font-bold text-primary text-sm">75000đ</span>
-                <a href="https://s.shopee.vn/6KzhtS1rP6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/6KzhtS1rP6" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -854,9 +855,9 @@
                 <img alt="Vi Sinh Biozym Aqua" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-22110-pj2y9juiqckva3.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Biozym Aqua</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vi Sinh Biozym Aqua</h3>
                 <span class="font-bold text-primary text-sm">40000đ</span>
-                <a href="https://s.shopee.vn/2VmzKeP6ex" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/2VmzKeP6ex" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -866,9 +867,9 @@
                 <img alt="Cám Dán DR+ Brine Shrimp" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcez-m6gog8x9uj23b6.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cám Dán DR+ Brine Shrimp</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cám Dán DR+ Brine Shrimp</h3>
                 <span class="font-bold text-primary text-sm">100000đ</span>
-                <a href="https://s.shopee.vn/AACQT2t3a0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/AACQT2t3a0" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -878,9 +879,9 @@
                 <img alt="Dung Dịch Khử Clo" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dung Dịch Khử Clo</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Dung Dịch Khử Clo</h3>
                 <span class="font-bold text-primary text-sm">100000đ</span>
-                <a href="https://s.shopee.vn/7poVgoDVxl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7poVgoDVxl" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -890,9 +891,9 @@
                 <img alt="Vi Sinh Koika" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Vi Sinh Koika</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Vi Sinh Koika</h3>
                 <span class="font-bold text-primary text-sm">33900đ</span>
-                <a href="https://s.shopee.vn/70FOhL9VEq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/70FOhL9VEq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -902,9 +903,9 @@
                 <img alt="Dung Dịch Khử Clo Koika Detox" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbc6pbgk7d0zd1.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dung Dịch Khử Clo Koika Detox</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Dung Dịch Khử Clo Koika Detox</h3>
                 <span class="font-bold text-primary text-sm">31000đ</span>
-                <a href="https://s.shopee.vn/1Lb1x4B0f4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1Lb1x4B0f4" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -914,9 +915,9 @@
                 <img alt="Men Vi Sinh Extra Bio" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lr1fh8xehadge2.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Men Vi Sinh Extra Bio</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Men Vi Sinh Extra Bio</h3>
                 <span class="font-bold text-primary text-sm">105000đ</span>
-                <a href="https://s.shopee.vn/3VfWX4X19t" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/3VfWX4X19t" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -926,9 +927,9 @@
                 <img alt="Đèn Neo Helios Flat" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-m09yooedy7zh85.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Đèn Neo Helios Flat</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Đèn Neo Helios Flat</h3>
                 <span class="font-bold text-primary text-sm">112700đ</span>
-                <a href="https://s.shopee.vn/7fV5UkK7Vj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7fV5UkK7Vj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -938,9 +939,9 @@
                 <img alt="Khăn Lọc Bụi Mịn" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-7rd5y-lx3rcg14gnk863.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Khăn Lọc Bụi Mịn</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Khăn Lọc Bụi Mịn</h3>
                 <span class="font-bold text-primary text-sm">15000đ</span>
-                <a href="https://s.shopee.vn/LiUlSu2uv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/LiUlSu2uv" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -950,9 +951,9 @@
                 <img alt="Thức Ăn Biozym Discus" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/d62c7e01afb981fcb6e57febe0f298f5.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Thức Ăn Biozym Discus</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Thức Ăn Biozym Discus</h3>
                 <span class="font-bold text-primary text-sm">110000đ</span>
-                <a href="https://s.shopee.vn/qelMPrKmj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/qelMPrKmj" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -962,9 +963,9 @@
                 <img alt="Lọc váng SunSun" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-lfoz2mrutg1wcc.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lọc váng SunSun</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Lọc váng SunSun</h3>
                 <span class="font-bold text-primary text-sm">83300đ</span>
-                <a href="https://s.shopee.vn/gLLAA4Ie9" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/gLLAA4Ie9" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -974,9 +975,9 @@
                 <img alt="Dao Cạo Rêu Mufan" class="w-full h-full object-cover" src="https://down-zl-vn.img.susercontent.com/sg-11134201-23020-gbddi2uv46mv5a.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Dao Cạo Rêu Mufan</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Dao Cạo Rêu Mufan</h3>
                 <span class="font-bold text-primary text-sm">115000đ</span>
-                <a href="https://s.shopee.vn/6pvyVX3STq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/6pvyVX3STq" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -986,9 +987,9 @@
                 <img alt="Máy Sủi Oxy" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Máy Sủi Oxy</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Máy Sủi Oxy</h3>
                 <span class="font-bold text-primary text-sm">45000đ</span>
-                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -998,9 +999,9 @@
                 <img alt="Lọc Thác RLD" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ra0g-m9ps50kix8jm3f.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lọc Thác RLD</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Lọc Thác RLD</h3>
                 <span class="font-bold text-primary text-sm">169900đ</span>
-                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/qelNHShcI" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1019,9 +1020,9 @@
                 <img alt="Combo Vật Liệu Lọc" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mdya7bfph6gwcc.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Vật Liệu Lọc</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Combo Vật Liệu Lọc</h3>
                 <span class="font-bold text-primary text-sm">8000đ</span>
-                <a href="https://s.shopee.vn/2BA8y2Kpgx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/2BA8y2Kpgx" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1031,9 +1032,9 @@
                 <img alt="Cây Thủy Sinh Gắn Giá Thể" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mdbga8364oqn59.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Thủy Sinh Gắn Giá Thể</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cây Thủy Sinh Gắn Giá Thể</h3>
                 <span class="font-bold text-primary text-sm">40500đ</span>
-                <a href="https://s.shopee.vn/1gDsN9dBS3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/1gDsN9dBS3" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1043,9 +1044,9 @@
                 <img alt="Cây Thủy Sinh Cắt Cắm" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lu57tw5xayov31.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Cây Thủy Sinh Cắt Cắm</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Cây Thủy Sinh Cắt Cắm</h3>
                 <span class="font-bold text-primary text-sm">35000đ</span>
-                <a href="https://s.shopee.vn/4frTwobKHU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4frTwobKHU" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1055,9 +1056,9 @@
                 <img alt="Lá Thủy Nữ" class="w-full h-full object-cover" src="https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-ly42kilkp2v731.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Lá Thủy Nữ</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Lá Thủy Nữ</h3>
                 <span class="font-bold text-primary text-sm">115000đ</span>
-                <a href="https://s.shopee.vn/7fV5WT9HF8" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/7fV5WT9HF8" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1067,9 +1068,9 @@
                 <img alt="Combo 5-20 Cây Thủy Sinh Cắt Cắm" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lv3dxquj468q67.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo 5-20 Cây Thủy Sinh Cắt Cắm</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Combo 5-20 Cây Thủy Sinh Cắt Cắm</h3>
                 <span class="font-bold text-primary text-sm">31000đ</span>
-                <a href="https://s.shopee.vn/AUpGtpPJGB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/AUpGtpPJGB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1079,9 +1080,9 @@
                 <img alt="Combo Cây Lá Cạn" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lwygfakxcqfvcc.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Cây Lá Cạn</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Combo Cây Lá Cạn</h3>
                 <span class="font-bold text-primary text-sm">31000đ</span>
-                <a href="https://s.shopee.vn/4frTx9VjMB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/4frTx9VjMB" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1091,9 +1092,9 @@
                 <img alt="Combo Tiểu Bảo Tháp" class="w-full h-full object-cover" src="https://down-tx-vn.img.susercontent.com/vn-11134207-820l4-mfgzs3d37wnj56.webp" loading="lazy">
             </div>
             <div class="p-3 flex flex-col gap-1 flex-grow">
-                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow">Combo Tiểu Bảo Tháp</h3>
+                <h3 class="font-label-md text-sm text-on-surface line-clamp-2 flex-grow min-h-[40px]">Combo Tiểu Bảo Tháp</h3>
                 <span class="font-bold text-primary text-sm">35000đ</span>
-                <a href="https://s.shopee.vn/BP4av3NTc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-colors block">
+                <a href="https://s.shopee.vn/BP4av3NTc" target="_blank" class="mt-1 w-full text-center bg-primary-container hover:bg-primary-fixed text-on-primary-container font-label-md text-xs py-1.5 rounded-md transition-all block font-bold">
                     MUA NGAY 🛒
                 </a>
             </div>
@@ -1104,7 +1105,7 @@
 <div class="h-section-gap w-full"></div>
 </main>
 
-<footer class="w-full py-stack-lg bg-surface-container-lowest border-t border-primary/5">
+<footer class="w-full py-stack-lg bg-surface-container-lowest border-t border-primary/5 relative z-20">
 <div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop space-y-stack-md md:space-y-0 w-full max-w-container-max mx-auto mb-16">
 <div class="flex flex-col items-center md:items-start gap-stack-sm">
 <span class="font-headline-md text-headline-md text-primary font-bold">Thủy Sinh Cho Người Mới</span>
@@ -1114,7 +1115,7 @@
 </footer>
 
 <div class="fixed bottom-0 left-0 w-full h-16 bg-primary-container z-50 flex items-center justify-center px-margin-mobile shadow-[0_-4px_10px_rgba(0,0,0,0.1)]">
-<a class="flex items-center gap-2 text-on-primary-container font-bold text-body-md" href="https://s.shopee.vn/5L9Lh0GjiY" target="_blank">
+<a class="flex items-center gap-2 text-on-primary-container font-bold text-body-md" href="https://shopee.vn" target="_blank">
 <span class="material-symbols-outlined">shopping_cart</span><span>Ghé shop Shopee của mình →</span>
 </a>
 </div>
