@@ -5,7 +5,12 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Thủy Sinh Cho Người Mới | Cây, Rêu, Bèo & Phụ Kiện Thủy Sinh</title>
     <meta name="description" content="Tổng hợp cây thủy sinh không CO2, rêu, bèo, phụ kiện và combo trọn gói dành cho người mới. Link mua hàng chính hãng trên Shopee.">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CACHE CONTROL: Ngăn browser/CDN cache trang cũ sau mỗi lần N8N deploy -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <!-- Tailwind với cache buster timestamp — buộc tải lại khi có bản build mới -->
+    <script src="https://cdn.tailwindcss.com?v=1786853198868"></script>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1" rel="stylesheet">
     <style>
@@ -232,5 +237,14 @@ function showDefault() {
 
 document.addEventListener('DOMContentLoaded', init);
 </script>
+
+<!-- ============================================================
+     BUILD INFO — Nhúng tự động bởi N8N mỗi lần deploy
+     Dùng để xác minh phiên bản: Chuột phải > "View Page Source" > tìm BUILD
+     Build time  : 11:06:38 16/8/2026
+     Build UTC   : 2026-08-16T04:06:38.868Z
+     Total items : 96 sản phẩm
+     Cache key   : 1786853198868
+============================================================= -->
 </body>
 </html>
