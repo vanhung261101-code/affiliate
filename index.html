@@ -1,250 +1,502 @@
-<!DOCTYPE html>
-<html class="dark" lang="vi">
+<!doctype html>
+<html lang="vi">
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Thủy Sinh Cho Người Mới | Cây, Rêu, Bèo & Phụ Kiện Thủy Sinh</title>
-    <meta name="description" content="Tổng hợp cây thủy sinh không CO2, rêu, bèo, phụ kiện và combo trọn gói dành cho người mới. Link mua hàng chính hãng trên Shopee.">
-    <!-- CACHE CONTROL: Ngăn browser/CDN cache trang cũ sau mỗi lần N8N deploy -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <!-- Tailwind với cache buster timestamp — buộc tải lại khi có bản build mới -->
-    <script src="https://cdn.tailwindcss.com?v=1786853198868"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1" rel="stylesheet">
-    <style>
-        body { font-family: 'Be Vietnam Pro', sans-serif; background-color: #0b1714; color: #d2e7df; }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-        .glass-header { background: rgba(11,23,20,0.92); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
-        .shopee-btn { background: linear-gradient(135deg, #ff5722 0%, #ee4d2d 100%); }
-        .shopee-btn:hover { background: linear-gradient(135deg, #f44336 0%, #d73211 100%); }
-        .hero-gradient { background: linear-gradient(180deg, rgba(11,23,20,0.25) 0%, rgba(11,23,20,0.97) 100%); }
-        .cat-pill.active { background: #10b981 !important; color: #022c22 !important; font-weight: 700; }
-        .product-card { transition: transform 0.15s ease, border-color 0.15s ease; }
-        .product-card:hover { transform: translateY(-2px); }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thủy Sinh Cho Người Mới: cây, rêu và phụ kiện cho bể đầu tiên</title>
+<meta name="description" content="96 món cây thủy sinh, rêu, bèo, vi sinh và phụ kiện chọn sẵn cho người mới, mua trên Shopee.">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta property="og:title" content="Thủy Sinh Cho Người Mới">
+<meta property="og:description" content="Cây, rêu, bèo và phụ kiện chọn sẵn cho bể thủy sinh đầu tiên. Mua trên Shopee.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://vanhung261101-code.github.io/affiliate/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F5F3EC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%231E6A47'/%3E%3Cpath d='M12 19c0-6 2-10 6-12-1 6-3 9-6 12zm0 0c0-4-1.5-7-5-9 .5 4 2 7 5 9z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F5F3EC; --surface:#FFFFFF; --alt:#ECEAE1; --ink:#1B2420; --muted:#58615B;
+  --line:rgba(27,36,32,.13); --action:#1E6A47; --action-hover:#175A3B; --on-action:#fff;
+  --tag-bg:#E3EEE6; --tag-ink:#1E5A3E; --warn-bg:#F3E9DA; --warn-ink:#6B4A1C;
+  --r-lg:16px; --r-md:12px; --r-sm:8px; --r-btn:999px;
+  --nav:64px; --gut:clamp(16px,4vw,48px); --max:1240px;
+  --t-h1:clamp(32px,2.6vw + 18px,54px); --t-h2:clamp(24px,1.2vw + 18px,36px);
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav) + 16px)}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
+.muted{color:var(--muted)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:10px 14px;border-radius:var(--r-sm);z-index:50}
+.skip:focus{left:16px}
+:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 22px;border-radius:var(--r-btn);font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s var(--ease),transform .12s var(--ease),border-color .2s;white-space:nowrap}
+.btn:active{transform:scale(.97)}
+.btn--primary{background:var(--action);color:var(--on-action)}
+.btn--primary:hover{background:var(--action-hover)}
+.btn--secondary{background:transparent;border-color:rgba(27,36,32,.28)}
+.btn--secondary:hover{border-color:var(--ink);background:rgba(27,36,32,.04)}
+.btn svg{width:16px;height:16px;flex:none}
+.btn--primary svg.arrow{transition:transform .2s var(--ease)}
+.btn--primary:hover svg.arrow{transform:translateX(3px)}
+
+/* Nav */
+.nav{position:fixed;inset:0 0 auto;height:var(--nav);background:var(--bg);border-bottom:1px solid var(--line);z-index:20}
+.nav .wrap{height:100%;display:flex;align-items:center;gap:32px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:17px;letter-spacing:-.01em}
+.logo .mark{width:32px;height:32px;border-radius:9px;background:var(--action);display:grid;place-items:center}
+.logo .mark svg{width:20px;height:20px}
+.nav__links{display:flex;gap:28px;margin-left:auto}
+.nav__links a{text-decoration:none;font-size:15px;font-weight:500;color:var(--muted);background:linear-gradient(currentColor,currentColor) 0 100%/0 1.5px no-repeat;transition:background-size .25s var(--ease),color .2s}
+.nav__links a:hover{color:var(--ink);background-size:100% 1.5px}
+.nav .btn{margin-left:4px}
+@media (max-width:899px){.nav__links{display:none}.nav .btn{margin-left:auto}}
+@media (max-width:639px){:root{--nav:56px}.logo span.name{font-size:15px}.nav .btn{display:none}}
+
+/* TikTok in-app tip */
+.tip{display:none;background:var(--warn-bg);color:var(--warn-ink);font-size:14px;line-height:1.45;border-bottom:1px solid var(--line)}
+.tip.show{display:block}
+.tip .wrap{display:flex;gap:12px;align-items:flex-start;padding-top:10px;padding-bottom:10px}
+.tip b{font-weight:600}
+.tip button{margin-left:auto;background:none;border:0;min-width:44px;min-height:32px;cursor:pointer;font-size:14px;font-weight:600;color:var(--warn-ink);text-decoration:underline}
+
+main{padding-top:var(--nav)}
+section{padding:clamp(56px,7vw,104px) 0}
+
+/* Hero */
+.hero{padding-top:clamp(28px,5vw,72px);padding-bottom:clamp(40px,6vw,88px)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,72px);align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:500;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px 5px 6px;background:var(--surface)}
+.pill i{width:20px;height:20px;border-radius:50%;background:var(--ink);display:grid;place-items:center}
+.pill i svg{width:11px;height:11px}
+h1{font-size:var(--t-h1);line-height:1.08;letter-spacing:-.025em;font-weight:700;margin:20px 0 16px;max-width:15ch;text-wrap:balance}
+.lead{font-size:clamp(16px,.4vw + 15px,19px);color:var(--muted);max-width:46ch;margin:0 0 28px}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;gap:28px;margin:36px 0 0;padding:20px 0 0;border-top:1px solid var(--line);list-style:none;padding-left:0}
+.facts li{display:flex;flex-direction:column}
+.facts b{font-size:22px;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.facts span{font-size:13px;color:var(--muted)}
+.hero__photo{border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;background:var(--alt)}
+.hero__photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+@media (max-width:899px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero__photo{aspect-ratio:16/10;order:-1}
+  h1{max-width:18ch}
+}
+@media (max-width:639px){
+  .btn-row .btn{flex:1 1 100%}
+  .facts{gap:18px}.facts b{font-size:19px}
+}
+[data-enter]{animation:enter .7s var(--ease) both}
+[data-enter="2"]{animation-delay:.08s}[data-enter="3"]{animation-delay:.16s}
+@keyframes enter{from{opacity:0;transform:translateY(14px)}}
+
+/* Section heads */
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:clamp(24px,3vw,40px)}
+h2{font-size:var(--t-h2);line-height:1.15;letter-spacing:-.02em;font-weight:700;margin:0;max-width:34ch;text-wrap:balance}
+h2 .muted{font-weight:600}
+.head p{margin:0;color:var(--muted);max-width:40ch}
+
+/* Needs */
+.needs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.need{all:unset;box-sizing:border-box;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s var(--ease),box-shadow .2s,border-color .2s}
+.need:hover{transform:translateY(-2px);border-color:rgba(27,36,32,.24);box-shadow:0 8px 24px -14px rgba(27,36,32,.35)}
+.need:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+.need__pics{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;aspect-ratio:3/1.35;background:var(--alt)}
+.need__pics{overflow:hidden}
+.need__pics span{overflow:hidden;display:block}
+.need__pics img{width:100%;height:100%;object-fit:cover;transition:transform .35s var(--ease)}
+.need:hover .need__pics img.ph{transform:translate(var(--tx),var(--ty)) scale(calc(var(--s) + .03))}
+.need__body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.need__body h3{margin:0;font-size:18px;line-height:1.3;font-weight:600}
+.need__body p{margin:0;color:var(--muted);font-size:15px;line-height:1.5;flex:1}
+.need__go{margin-top:10px;font-weight:600;font-size:15px;color:var(--action);display:flex;align-items:center;gap:6px}
+.need__go svg{width:16px;height:16px;transition:transform .2s var(--ease)}
+.need:hover .need__go svg{transform:translateX(3px)}
+@media (max-width:1023px){.needs{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:639px){.needs{grid-template-columns:1fr;gap:12px}
+  .need{flex-direction:row}.need__pics{grid-template-columns:1fr 1fr;width:132px;aspect-ratio:auto;flex:none}
+  .need__pics > span:nth-child(3){display:none}.need__body{padding:14px 16px}.need__body h3{font-size:16px}.need__body p{font-size:14px}.need__go{margin-top:4px;font-size:14px}}
+
+/* Catalog */
+#danh-muc{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tools{display:grid;grid-template-columns:1fr auto;gap:12px;margin-bottom:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:13px;font-weight:500;color:var(--muted)}
+.search{position:relative}
+.search svg{position:absolute;left:14px;top:50%;width:18px;height:18px;transform:translateY(-50%);color:var(--muted)}
+.search input,.field select{width:100%;height:48px;border:1px solid rgba(27,36,32,.2);border-radius:var(--r-md);background:var(--bg);padding:0 14px 0 42px;font-size:16px;transition:border-color .2s,background .2s}
+.field select{padding:0 36px 0 14px;appearance:none;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2358615B' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center/18px;min-width:180px;cursor:pointer}
+.search input:focus,.field select:focus{outline:none;border-color:var(--action);background:var(--surface)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 12px;margin:0 calc(var(--gut) * -1) 20px;padding-left:var(--gut);padding-right:var(--gut);scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+@media (min-width:900px){.chips{flex-wrap:wrap;overflow:visible;margin-left:0;margin-right:0;padding-left:2px;padding-right:2px}}
+.chip{flex:none;min-height:40px;padding:0 16px;border-radius:999px;border:1px solid rgba(27,36,32,.18);background:var(--surface);font-size:14px;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .2s,border-color .2s,color .2s}
+.chip:hover{border-color:var(--ink)}
+.chip small{font-size:13px;color:var(--muted);font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip[aria-pressed="true"] small{color:rgba(255,255,255,.7)}
+.status{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px;font-size:14px;color:var(--muted);min-height:24px}
+.status button{background:none;border:0;color:var(--action);font-weight:600;cursor:pointer;font-size:14px;padding:8px 0;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:639px){.tools{grid-template-columns:1fr 128px;gap:8px}.field select{min-width:0;padding-right:30px;background-position:right 8px center}}
+
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+@media (max-width:1199px){.grid{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:899px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:639px){.grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s var(--ease),box-shadow .2s,border-color .2s}
+.card:hover{transform:translateY(-2px);border-color:rgba(27,36,32,.24);box-shadow:0 10px 26px -16px rgba(27,36,32,.4)}
+/* Khung ảnh chung: vuông 1:1, phóng 118% từ tâm để cắt viền trắng/đen, logo góc và băng chữ có sẵn trong ảnh shop */
+:root{--crop:1.18}
+.card__img{position:relative;aspect-ratio:1;background:var(--alt);overflow:hidden}
+.card__img::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(27,36,32,.06);pointer-events:none}
+/* Ảnh có viền dày: script đo viền và đặt --s/--tx/--ty riêng cho ảnh đó, vẫn cùng khung vuông */
+img.ph{--s:var(--crop);--tx:0%;--ty:0%;transform:translate(var(--tx),var(--ty)) scale(var(--s))}
+.card__img img{width:100%;height:100%;object-fit:cover;object-position:50% 50%;transition:transform .35s var(--ease)}
+.card:hover .card__img img.ph{transform:translate(var(--tx),var(--ty)) scale(calc(var(--s) + .03))}
+.card__img.noimg{display:grid;place-items:center;color:var(--muted)}
+.card__body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.tag{align-self:flex-start;font-size:12px;font-weight:600;line-height:1;padding:5px 8px;border-radius:6px;background:var(--alt);color:var(--muted)}
+.tag--easy{background:var(--tag-bg);color:var(--tag-ink)}
+.tag--co2{background:var(--warn-bg);color:var(--warn-ink)}
+.card h3{margin:0;font-size:15px;line-height:1.4;font-weight:500;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.8em}
+.price{font-size:18px;font-weight:700;letter-spacing:-.01em;margin-top:auto}
+.price small{font-size:13px;font-weight:500;color:var(--muted)}
+.buy{display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px;border-radius:var(--r-sm);background:var(--action);color:#fff;text-decoration:none;font-weight:600;font-size:14px;transition:background .2s,transform .12s}
+.buy:hover{background:var(--action-hover)}
+.buy:active{transform:scale(.97)}
+.buy svg{width:15px;height:15px}
+.buy::after{content:"";position:absolute;inset:0}
+@media (max-width:639px){.card__body{padding:10px 10px 12px}.card h3{font-size:14px}.price{font-size:16px}.buy{font-size:13px}}
+.more{display:flex;justify-content:center;margin-top:32px}
+.empty{grid-column:1/-1;text-align:center;padding:48px 16px;color:var(--muted)}
+.empty b{display:block;color:var(--ink);font-size:18px;margin-bottom:6px}
+
+/* Combo */
+.combo .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(24px,4vw,56px);align-items:stretch}
+.combo__photo{border-radius:var(--r-lg);overflow:hidden;min-height:360px;background:var(--alt)}
+.combo__photo img{width:100%;height:100%;object-fit:cover}
+.combo__list{display:flex;flex-direction:column}
+.combo__list h2{margin-bottom:12px}
+.combo__list > p{color:var(--muted);margin:0 0 24px;max-width:46ch}
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rows li{border-bottom:1px solid var(--line)}
+.rows a{display:grid;grid-template-columns:56px 1fr auto 20px;gap:16px;align-items:center;padding:12px 0;text-decoration:none;transition:background .2s}
+.rows a:hover{background:rgba(27,36,32,.03)}
+.rows .th{width:56px;height:56px;border-radius:var(--r-sm);overflow:hidden;background:var(--alt)}
+.rows .th img{width:100%;height:100%;object-fit:cover}
+.rows .n{font-weight:500;line-height:1.4}
+.rows .p{font-weight:700;white-space:nowrap}
+.rows svg{width:18px;height:18px;color:var(--muted);transition:transform .2s var(--ease),color .2s}
+.rows a:hover svg{transform:translateX(3px);color:var(--action)}
+@media (max-width:899px){.combo .wrap{grid-template-columns:1fr}.combo__photo{min-height:0;aspect-ratio:16/9}}
+
+/* FAQ */
+.faq{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;border-top:1px solid var(--line);padding-top:32px}
+.faq h3{margin:0 0 8px;font-size:17px;font-weight:600;line-height:1.4}
+.faq p{margin:0;color:var(--muted);font-size:15px}
+@media (max-width:899px){.faq{grid-template-columns:1fr;gap:24px}}
+
+/* Footer */
+footer{border-top:1px solid var(--line);padding:40px 0 calc(40px + var(--bar,0px));font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px 32px;align-items:center}
+footer a{color:var(--ink);text-underline-offset:3px}
+
+/* Phone bar */
+.actionbar{display:none}
+@media (max-width:639px){
+  :root{--bar:calc(68px + env(safe-area-inset-bottom))}
+  .actionbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--bg);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));gap:10px;transform:translateY(110%);transition:transform .3s var(--ease)}
+  .actionbar.on{transform:none}
+  .actionbar .btn{flex:1;min-height:48px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
 </head>
-<body class="antialiased pb-24 min-h-screen">
-
-<!-- BANNER HƯỚNG DẪN MỞ TRÌNH DUYỆT NGOÀI -->
-<div id="tiktok-notice" class="bg-gradient-to-r from-amber-600 via-orange-600 to-amber-700 text-white text-xs py-2 px-3 sticky top-0 z-50 flex items-center justify-between shadow-md">
-    <div class="flex items-center gap-1.5">
-        <span class="material-symbols-outlined text-sm">tips_and_updates</span>
-        <span><b>Mẹo:</b> Ấn <b>(...)</b> góc phải ➔ <b>"Mở trong trình duyệt"</b> để dùng mã giảm giá Shopee!</span>
-    </div>
-    <button onclick="this.parentElement.remove()" class="text-white/80 hover:text-white ml-2 font-bold shrink-0">✕</button>
-</div>
-
-<!-- HEADER -->
-<header class="sticky top-0 z-40 glass-header border-b border-emerald-900/40 shadow-lg">
-    <div class="max-w-4xl mx-auto px-4 py-3">
-        <div class="flex items-center justify-between gap-3 mb-2.5">
-            <div class="flex items-center gap-2">
-                <div class="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-400/40 flex items-center justify-center shrink-0">
-                    <span class="material-symbols-outlined text-emerald-400 text-lg">water_drop</span>
-                </div>
-                <div>
-                    <h1 class="font-bold text-sm md:text-base text-emerald-300 leading-tight">Thủy Sinh Cho Người Mới</h1>
-                    <p class="text-[10px] text-emerald-500">Review & tổng hợp đồ dùng chuẩn ngách</p>
-                </div>
-            </div>
-            <a href="https://s.shopee.vn/5L9Lh0GjiY" target="_blank"
-               class="text-xs bg-orange-500/15 text-orange-400 border border-orange-500/40 px-3 py-1.5 rounded-full flex items-center gap-1 font-bold hover:bg-orange-500/25 transition-all shrink-0">
-                Shopee Store
-                <span class="material-symbols-outlined text-sm">open_in_new</span>
-            </a>
-        </div>
-        <div class="relative w-full">
-            <span class="material-symbols-outlined absolute left-3.5 top-2.5 text-emerald-500 text-lg pointer-events-none">search</span>
-            <input type="text" id="searchInput" oninput="filterProducts()"
-                   placeholder="Tìm cây, rêu, bèo, vi sinh, phân nền..."
-                   class="w-full bg-emerald-950/80 border border-emerald-800/80 text-emerald-100 placeholder-emerald-600/70 text-sm rounded-xl pl-10 pr-10 py-2.5 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-all">
-            <button id="clearBtn" onclick="clearSearch()" class="hidden absolute right-3 top-2.5 text-emerald-500 hover:text-emerald-300">
-                <span class="material-symbols-outlined text-lg">cancel</span>
-            </button>
-        </div>
-    </div>
-    <div class="max-w-4xl mx-auto px-4 pb-2.5 pt-1 overflow-x-auto no-scrollbar flex items-center gap-1.5 text-xs">
-        <button onclick="setFilter('ALL',this)" class="cat-pill active shrink-0 px-3 py-1.5 rounded-lg whitespace-nowrap transition-all">🌱 Tất Cả</button>
-        <button onclick="setFilter('Cây thủy sinh (không cần CO2)',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🌿 Cây Không CO2</button>
-        <button onclick="setFilter('Bèo Thủy Sinh',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🍃 Bèo</button>
-        <button onclick="setFilter('Rêu Thủy Sinh',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🌾 Rêu</button>
-        <button onclick="setFilter('Cây Cắt Cắm',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">✂️ Cây Cắt Cắm</button>
-        <button onclick="setFilter('Cây thủy sinh (cần CO2)',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🧪 Cần CO2</button>
-        <button onclick="setFilter('Vi Sinh & Xử Lý Nước',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🦠 Vi Sinh</button>
-        <button onclick="setFilter('Cốt nền, vật liệu lọc',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🪨 Cốt Nền</button>
-        <button onclick="setFilter('Thức Ăn Cho Cá',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🐟 Thức Ăn</button>
-        <button onclick="setFilter('Dụng Cụ Thủy Sinh',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🔧 Dụng Cụ</button>
-        <button onclick="setFilter('Combo',this)" class="cat-pill shrink-0 bg-emerald-900/50 text-emerald-300 border border-emerald-800/50 px-3 py-1.5 rounded-lg whitespace-nowrap hover:bg-emerald-800/50 transition-all">🎁 Combo</button>
-    </div>
+<body>
+<!-- Demo giao diện mới, dựng theo nguyên tắc taste skill (kind: product/shop, nền sáng trung tính, một màu nhấn xanh rêu, Be Vietnam Pro). -->
+<header class="nav">
+  <div class="wrap">
+    <a class="skip" href="#top">Bỏ qua, tới nội dung</a>
+    <a class="logo" href="#top" aria-label="Thủy Sinh Cho Người Mới, về đầu trang">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M12 20c0-7 2.5-11.5 7-14-1 7-3.5 10.5-7 14zm0 0c0-4.5-1.7-8-5.5-10.5.4 4.6 2.2 8 5.5 10.5z" fill="#fff"/></svg></span>
+      <span class="name">Thủy Sinh Cho Người Mới</span>
+    </a>
+    <nav class="nav__links" aria-label="Mục chính">
+      <a href="#bat-dau">Bắt đầu</a>
+      <a href="#danh-muc">Sản phẩm</a>
+      <a href="#combo">Combo</a>
+      <a href="#hoi-dap">Hỏi đáp</a>
+    </nav>
+    <a class="btn btn--secondary" href="https://s.shopee.vn/5L9Lh0GjiY" target="_blank" rel="noopener sponsored">Mở gian hàng Shopee</a>
+  </div>
 </header>
 
-<main class="max-w-4xl mx-auto px-3 md:px-4 pt-4">
-
-    <div id="heroBanner" class="relative rounded-2xl overflow-hidden mb-5 border border-emerald-800/40 shadow-xl" style="max-height:200px">
-        <img src="https://cdn.britannica.com/29/121829-050-911F77EC/freshwater-aquarium.jpg" alt="Bể Thủy Sinh" class="w-full h-full object-cover">
-        <div class="absolute inset-0 hero-gradient flex flex-col justify-end p-4">
-            <span class="inline-block bg-emerald-500/20 backdrop-blur-md text-emerald-300 border border-emerald-400/30 text-[11px] font-semibold px-2.5 py-0.5 rounded-full w-max mb-1">✨ TikTok: Thủy Sinh Cho Người Mới</span>
-            <h2 class="text-base md:text-lg font-bold text-white drop-shadow-sm">Cây, Rêu, Bèo & Phụ Kiện — Dành Cho Người Mới Bắt Đầu</h2>
+<main id="top">
+  <div class="tip" id="tip" role="note">
+    <div class="wrap">
+      <span>Bạn đang xem trong TikTok. Bấm <b>(…)</b> ở góc phải, chọn <b>Mở trong trình duyệt</b> để Shopee nhận tài khoản và mã giảm giá của bạn.</span>
+      <button type="button" id="tipClose">Đã hiểu</button>
+    </div>
+  </div>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill" data-enter><i><svg viewBox="0 0 24 24" fill="#fff"><path d="M16 3c.3 2.4 1.9 4 4 4.2v3.3c-1.5 0-2.9-.4-4-1.2v6.2A5.5 5.5 0 1 1 10.5 10v3.4a2.2 2.2 0 1 0 2.2 2.2V3H16z"/></svg></i>Từ kênh TikTok @thuysinhchonguoimoi</span>
+        <h1 data-enter="2">Cây thủy sinh và phụ kiện cho bể đầu tiên</h1>
+        <p class="lead" data-enter="2">Mới chơi và chưa biết nên mua gì trước? Chọn tình huống bể của bạn, mình đã lọc sẵn cây dễ sống, rêu và vi sinh trong <span data-count>96</span> món, giá từ <span data-min>5.999đ</span>. Bấm một lần là tới đúng sản phẩm trên Shopee.</p>
+        <div class="btn-row" data-enter="3">
+          <a class="btn btn--primary" href="#bat-dau">Chọn theo nhu cầu <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--secondary" href="#danh-muc" id="toSearch">Tìm theo tên cây</a>
         </div>
+        <ul class="facts" data-enter="3">
+          <li><b data-easy>25 loại</b><span>cây không cần CO2</span></li>
+          <li><b data-cats>10 nhóm</b><span>từ cây tới vi sinh</span></li>
+          <li><b data-combo>6 combo</b><span>gộp sẵn cho bể mới</span></li>
+        </ul>
+      </div>
+      <div class="hero__photo" data-enter="2"><img src="hero.jpg" alt="Bể thủy sinh nhỏ trồng rêu và cây lá xanh, đặt cạnh kệ sách" width="960" height="1200" fetchpriority="high"></div>
     </div>
+  </section>
 
-    <div id="filterSection" class="hidden mb-5">
-        <div class="flex items-center justify-between mb-3">
-            <h2 class="text-sm font-bold text-emerald-300 flex items-center gap-1.5">
-                <span class="material-symbols-outlined text-base text-emerald-400">tune</span>
-                <span id="filterTitle">Kết Quả</span>
-            </h2>
-            <span id="filterCount" class="text-xs text-emerald-500 font-medium"></span>
+  <section id="bat-dau" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <h2>Bắt đầu từ bể của bạn. <span class="muted">Chọn một tình huống, danh sách sẽ lọc sẵn.</span></h2>
+      </div>
+      <div class="needs" id="needs"></div>
+    </div>
+  </section>
+
+  <section id="danh-muc">
+    <div class="wrap">
+      <div class="head">
+        <h2>Tất cả sản phẩm. <span class="muted">Lọc theo nhóm hoặc gõ tên.</span></h2>
+      </div>
+      <div class="tools">
+        <div class="field">
+          <label for="q">Tìm sản phẩm</label>
+          <div class="search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="q" type="search" placeholder="Rêu, ráy, bèo, phân nền…" autocomplete="off" enterkeyhint="search">
+          </div>
         </div>
-        <div id="filterGrid" class="grid grid-cols-2 md:grid-cols-3 gap-2.5 md:gap-4"></div>
+        <div class="field">
+          <label for="sort">Sắp xếp</label>
+          <select id="sort">
+            <option value="rec">Gợi ý</option>
+            <option value="asc">Giá thấp trước</option>
+            <option value="desc">Giá cao trước</option>
+          </select>
+        </div>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Nhóm sản phẩm"></div>
+      <div class="status"><span id="count" aria-live="polite"></span><button type="button" id="reset" hidden>Xóa bộ lọc</button></div>
+      <div class="grid" id="grid"></div>
+      <div class="more"><button class="btn btn--secondary" type="button" id="more" hidden>Hiện thêm sản phẩm</button></div>
     </div>
+  </section>
 
-    <div id="defaultSections">
-        <section class="mb-5">
-            <div class="flex items-center justify-between mb-2.5">
-                <h2 class="text-sm md:text-base font-bold text-orange-400 flex items-center gap-1.5">
-                    <span class="material-symbols-outlined text-base">local_fire_department</span>
-                    Gợi Ý Cho Người Mới
-                </h2>
-                <span class="text-[11px] text-emerald-500">Được chọn lọc kỹ</span>
-            </div>
-            <div id="suggestedGrid" class="grid grid-cols-2 md:grid-cols-3 gap-2.5 md:gap-4"></div>
-        </section>
-        <div id="catSections"></div>
+  <section id="combo" class="combo">
+    <div class="wrap">
+      <div class="combo__photo"><img src="band.jpg" alt="Bể thủy sinh trồng dương xỉ, ráy và rêu trên lũa" loading="lazy" width="960" height="924"></div>
+      <div class="combo__list">
+        <h2>Combo cho bể mới. <span class="muted">Mua một lần, nhiều loại.</span></h2>
+        <p>Các gói gộp sẵn nhiều loại cây hoặc vật liệu lọc, hợp khi bạn trồng bể đầu tiên và chưa biết chọn loại nào.</p>
+        <ul class="rows" id="combos"></ul>
+      </div>
     </div>
+  </section>
 
+  <section id="hoi-dap" style="padding-top:0">
+    <div class="wrap">
+      <div class="head"><h2>Câu hỏi khi mua qua trang này</h2></div>
+      <div class="faq">
+        <div><h3>Mua qua đây có đắt hơn không?</h3><p>Không. Bạn trả đúng giá shop niêm yết trên Shopee. Kênh nhận một khoản hoa hồng nhỏ từ Shopee, bạn không trả thêm đồng nào.</p></div>
+        <div><h3>Vì sao nên mở trong trình duyệt?</h3><p>Trình duyệt bên trong TikTok không giữ đăng nhập Shopee. Mở bằng Chrome, Safari hoặc ứng dụng Shopee để dùng giỏ hàng và mã giảm giá của bạn.</p></div>
+        <div><h3>Giá trên trang có đúng không?</h3><p>Giá ghi lúc cập nhật danh sách. Shop có thể đổi giá hoặc chạy khuyến mãi, giá cuối cùng là giá bạn thấy trên Shopee.</p></div>
+      </div>
+    </div>
+  </section>
 </main>
 
-<div class="fixed bottom-0 left-0 w-full glass-header border-t border-emerald-800/60 py-2.5 px-4 z-50 shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
-    <div class="max-w-4xl mx-auto flex items-center justify-between gap-3">
-        <div class="flex items-center gap-2.5">
-            <div class="w-9 h-9 rounded-xl bg-orange-500/15 border border-orange-500/40 flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-orange-400">shopping_bag</span>
-            </div>
-            <div class="text-xs">
-                <p class="font-bold text-white leading-tight">Gian Hàng Shopee Chính Hãng</p>
-                <p class="text-[11px] text-orange-300/90">Freeship + Mã giảm giá hôm nay</p>
-            </div>
-        </div>
-        <a href="https://s.shopee.vn/5L9Lh0GjiY" target="_blank"
-           class="shopee-btn text-white text-xs md:text-sm font-bold px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-1 shrink-0 active:scale-95 transition-all">
-            VÀO SHOPEE <span class="material-symbols-outlined text-sm">arrow_forward</span>
-        </a>
-    </div>
-</div>
+<footer>
+  <div class="wrap">
+    <span><strong style="color:var(--ink)">Thủy Sinh Cho Người Mới</strong> · <a href="https://www.tiktok.com/@thuysinhchonguoimoi" target="_blank" rel="noopener">Theo dõi trên TikTok</a></span>
+    <span>Trang có chứa link tiếp thị liên kết Shopee. Ảnh sản phẩm từ trang bán trên Shopee.</span>
+  </div>
+</footer>
 
+<nav class="actionbar" id="bar" aria-label="Thao tác nhanh">
+  <a class="btn btn--secondary" href="#danh-muc">Tìm sản phẩm</a>
+  <a class="btn btn--primary" href="https://s.shopee.vn/5L9Lh0GjiY" target="_blank" rel="noopener sponsored">Gian hàng Shopee</a>
+</nav>
+
+<script>window.PRODUCTS = [{"name":"Trân Châu Ngọc Trai","price":"40000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp","link":"https://s.shopee.vn/6fcWQYi9tE","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Ngưu Mao Chiên","price":"39999","image":"https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp","link":"https://s.shopee.vn/AUpEzkQLIS","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Bèo Rễ Đỏ","price":"15000","image":"https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp","link":"https://s.shopee.vn/5L78qKi3nv","tag":"","category":"Bèo Thủy Sinh"},{"name":"Cỏ Chân Vịt","price":"5999","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqwze1mzhbq1b8.webp","link":"https://s.shopee.vn/7KsDE5bB0n","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Liễu Răng Cưa","price":"10000","image":"https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp","link":"https://s.shopee.vn/8ph12ryASl","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ngưu Mao Chiên Lùn Xòe Lá Nước","price":"30000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp","link":"https://s.shopee.vn/7VBdSUu8vv","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Rau Má Brazil","price":"12000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m65kavdgpkoz4c.webp","link":"https://s.shopee.vn/30jE6IL09X","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Rau Thơm Thủy Sinh","price":"19999","image":"https://down-vn.img.susercontent.com/file/45e133e04e621e28e47748f1f6919050.webp","link":"https://s.shopee.vn/5q3PTZLnZW","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tân Đế Tài Hồng","price":"20000","image":"https://down-vn.img.susercontent.com/file/2192329c30c8453628b94bce3c786522.webp","link":"https://s.shopee.vn/5AnigQO6X1","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Siêu Đỏ ROTALA COLORATA","price":"15000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lke43omhs1wc7a.webp","link":"https://s.shopee.vn/9pZYF2ljxx","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Ngọc Trai","price":"20000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-md67si2b6kkt11.webp","link":"https://s.shopee.vn/40blIvPAs3","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Xanh Cao","price":"20000","image":"https://down-vn.img.susercontent.com/file/db6f1cc2f8c39bf5d95213460a819317.webp","link":"https://s.shopee.vn/8V4AfM8KoN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Rong Xương Cá","price":"16000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67tdk55h36f45.webp","link":"https://s.shopee.vn/6Kzg5Kqr4q","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Huyết Thái Dương","price":"10000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgi5tw1md2j348.webp","link":"https://s.shopee.vn/2BA77lCSwN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tiêu Thảo Nâu","price":"20000","image":"https://down-zl-vn.img.susercontent.com/4450ec0c4cb166bcfae6ce3fb5e179f7.webp","link":"https://s.shopee.vn/5fjzIYCFmO","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tre Thủy Sinh","price":"20000","image":"https://down-zl-vn.img.susercontent.com/61c825dbeec6595f8ccaa8a3d1de5e6e.webp","link":"https://s.shopee.vn/5VQZ6He3k4","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Diệp Hồng Tài","price":"20000","image":"https://down-zl-vn.img.susercontent.com/a2495d29754a3035a6b8962f3e633c17.webp","link":"https://s.shopee.vn/LiSwuL5oy","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Lệ Nhi Tím","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6gjb1bl2pugf7.webp","link":"https://s.shopee.vn/W1t9KUtnD","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ráy Lá Tròn","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6nqnjqycoc804.webp","link":"https://s.shopee.vn/2LTZ6sq7RV","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Giá Thể","price":"7000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-luu6or2je5uae5.webp","link":"https://s.shopee.vn/AUpGpyTFif","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Keo Dán Cây","price":"14000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-22100-cmzh5de9v8hv3c.webp","link":"https://s.shopee.vn/9fG9qTrxXq","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Ráy Nana Lá Nhỏ","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx3kz6no9wpnbe.webp","link":"https://s.shopee.vn/4LEdUlA6cN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ráy Lá Dài","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-maca7es2328nd9.webp","link":"https://s.shopee.vn/4AvDIVeKIb","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Cây Lưỡi Mèo","price":"33000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-ljqxt230j9h0a3.webp","link":"https://s.shopee.vn/40bn6E3a2i","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Lá Hán Xanh Gắn Giá Thể","price":"45000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-ls2afr3bxbr831.webp","link":"https://s.shopee.vn/AKVqduSMh0","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Dương Xỉ Java","price":"38000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mhmveam95sec81.webp","link":"https://s.shopee.vn/1VuS7m6ZhU","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Hẹ Nước Gắn Giá Thể","price":"60000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-meiqvwphvnyf44.webp","link":"https://s.shopee.vn/4AvDIhYF2g","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Nhíp Trồng Cây","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mar0438pb72k02.webp","link":"https://s.shopee.vn/9fG9qsHFwa","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Cát Mix Siêu Sạch","price":"15000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfds5wl5lbt5a5.webp","link":"https://s.shopee.vn/qelKgo9ZQ","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Tiêu Thảo Pava","price":"35000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6h0dowc1qhz89.webp","link":"https://s.shopee.vn/70FOg5kZy6","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vitamin C Cho Cá","price":"65000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-822wp-mi307afvetj871.webp","link":"https://s.shopee.vn/W1uwJlll5","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Cục Tẩy Cặn Canxi","price":"21000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfw88ix8579m74.webp","link":"https://s.shopee.vn/4VY3hjFFfh","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Cám Trùn Huyết Vibra","price":"65000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-81zuy-mio65zmfxszoc4.webp","link":"https://s.shopee.vn/5L7AhJ99Is","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Cám Trùn Huyết Blood Worm","price":"115000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mk3xorkt0etc16.webp","link":"https://s.shopee.vn/6KzhtBwucI","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Vi Sinh Sống Biozym","price":"480200","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-23010-s0ekbpjau4lva0.webp","link":"https://s.shopee.vn/1BHbjn3ukQ","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Đèn Rọi Lazy Magic","price":"108000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbhnicepe4xzb7.webp","link":"https://s.shopee.vn/1BHbjn3ukQ","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Methylene Blue Yee","price":"55000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-melcdbn76x3a5e.webp","link":"https://s.shopee.vn/40bn75193r","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Phân Nước Đa Lượng","price":"76440","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp","link":"https://s.shopee.vn/1VuS8ahEKG","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Bột Tím Sát Khuẩn Cá","price":"75000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp","link":"https://s.shopee.vn/6KzhtS1rP6","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vật Liệu Lọc Mattrix - Hàng Thùng 100","price":"57000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp","link":"https://s.shopee.vn/7VBfHdozN7","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vật Liệu Lọc Mattrix Pond","price":"69000","image":"https://down-zl-vn.img.susercontent.com/d5e9ad460ff4e44e4e93cdde6cdd9e72.webp","link":"https://s.shopee.vn/8fNcftqrZC","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vật Liệu Lọc Mattrix Chiết Lẻ","price":"22000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp","link":"https://s.shopee.vn/9KdJT6xBWk","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vi Sinh Biozym Aqua","price":"40000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-22110-pj2y9juiqckva3.webp","link":"https://s.shopee.vn/2VmzKeP6ex","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vật Liệu Lọc Purigen Magic D","price":"69580","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rfhg-m95w3henm4sgaf.webp","link":"https://s.shopee.vn/5fk16WJ7sW","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cám Dán DR+ Brine Shrimp","price":"100000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcez-m6gog8x9uj23b6.webp","link":"https://s.shopee.vn/AACQT2t3a0","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Dung Dịch Khử Clo","price":"100000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp","link":"https://s.shopee.vn/7poVgoDVxl","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vi Sinh Koika","price":"33900","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp","link":"https://s.shopee.vn/70FOhL9VEq","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Dung Dịch Khử Clo Koika Detox","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbc6pbgk7d0zd1.webp","link":"https://s.shopee.vn/1Lb1x4B0f4","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Men Vi Sinh Extra Bio","price":"105000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lr1fh8xehadge2.webp","link":"https://s.shopee.vn/3VfWX4X19t","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Đèn Neo Helios Flat","price":"112700","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-m09yooedy7zh85.webp","link":"https://s.shopee.vn/7fV5UkK7Vj","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Khăn Lọc Bụi Mịn","price":"15000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd5y-lx3rcg14gnk863.webp","link":"https://s.shopee.vn/LiUlSu2uv","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Thức Ăn Biozym Discus","price":"110000","image":"https://down-zl-vn.img.susercontent.com/d62c7e01afb981fcb6e57febe0f298f5.webp","link":"https://s.shopee.vn/qelMPrKmj","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Lọc váng SunSun","price":"83300","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-lfoz2mrutg1wcc.webp","link":"https://s.shopee.vn/gLLAA4Ie9","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Dao Cạo Rêu Mufan","price":"115000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-23020-gbddi2uv46mv5a.webp","link":"https://s.shopee.vn/6pvyVX3STq","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Phân Nền Senda","price":"34950","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mbjehchg04f4ca.webp","link":"https://s.shopee.vn/2VmzMGX6lE","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Máy Sủi Oxy","price":"45000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mbjehchg04f4ca.webp","link":"https://s.shopee.vn/qelNHShcI","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Lọc Thác RLD","price":"169900","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m9ps50kix8jm3f.webp","link":"https://s.shopee.vn/qelNHShcI","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Nền Trang Trí Bể Cá","price":"14900","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhq5dsolzpc814.webp","link":"https://s.shopee.vn/7VBfJaMSZc","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Nham Thạch Đỏ","price":"19900","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhq5rvx84ge97d.webp","link":"https://s.shopee.vn/4qAu8j6aCd","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Sứ Viên","price":"18000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnpyh7yqo58aa6.webp","link":"https://s.shopee.vn/8KkmJKnEZn","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Combo Vật Liệu Lọc","price":"8000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mdya7bfph6gwcc.webp","link":"https://s.shopee.vn/2BA8y2Kpgx","tag":"","category":"Combo"},{"name":"Cây Thủy Sinh Gắn Giá Thể","price":"40500","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdbga8364oqn59.webp","link":"https://s.shopee.vn/1gDsN9dBS3","tag":"","category":"Combo"},{"name":"Sạn Suối","price":"12000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxjirigj1bdld9.webp","link":"https://s.shopee.vn/50UKLKsZEY","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Sỏi 3 Màu","price":"20000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2ic3v2sg1pw18.webp","link":"https://s.shopee.vn/3g2v7wteH0","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cát nắng vàng","price":"28000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2ibq24znlpwbf.webp","link":"https://s.shopee.vn/AUtFGXt5UG","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cây Thủy Sinh Cắt Cắm","price":"35000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lu57tw5xayov31.webp","link":"https://s.shopee.vn/4frTwobKHU","tag":"","category":"Cây Cắt Cắm"},{"name":"Sỏi Đồng","price":"24500","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2ic779akqeq2a.webp","link":"https://s.shopee.vn/10yBa99Wvu","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Rêu Mini Taiwan","price":"40000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m4akxqwxryjk72.webp","link":"https://s.shopee.vn/3LM6MStrIE","tag":"","category":"Rêu Thủy Sinh"},{"name":"Lá Thủy Nữ","price":"115000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ly42kilkp2v731.webp","link":"https://s.shopee.vn/7fV5WT9HF8","tag":"","category":"Bèo Thủy Sinh"},{"name":"La Hán Đỏ Giá Thể","price":"45000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxybqb356ok962.webp","link":"https://s.shopee.vn/70FOjIdPK2","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Combo 5-20 Cây Thủy Sinh Cắt Cắm","price":"31000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lv3dxquj468q67.webp","link":"https://s.shopee.vn/AUpGtpPJGB","tag":"","category":"Cây Cắt Cắm"},{"name":"Combo Cây Lá Cạn","price":"31000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lwygfakxcqfvcc.webp","link":"https://s.shopee.vn/4frTx9VjMB","tag":"","category":"Combo"},{"name":"Combo Tiểu Bảo Tháp","price":"35000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-820l4-mfgzs3d37wnj56.webp","link":"https://s.shopee.vn/BP4av3NTc","tag":"","category":"Combo"},{"name":"Bèo thuỷ sinh","price":"19000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-81ztc-ml56rzk7jg8xdf.webp","link":"https://s.shopee.vn/qijj43cLh","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo Nhật Thủy Sinh","price":"9800","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-ml0r99jzti4j13.webp","link":"https://s.shopee.vn/3VjUu7NrIP","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo Tai Chuột (Bèo Tổ Ong)","price":"11750","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mnydrqqksn4138.webp","link":"https://s.shopee.vn/AKZp2llriH","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bông lọc cashmere thế hệ 2","price":"48220","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mp0fxn8b61ho8a.webp","link":"https://s.shopee.vn/4Az0ZGhIOZ","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"MÁY SỦI OXY MINI CHẠY BẰNG USB","price":"44500","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mo5burp5vv2e18.webp","link":"https://s.shopee.vn/9pdNJjKr4a","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"100 Viên Vi Sinh Cao cấp","price":"7623","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mo6orscaetqc46.webp","link":"https://s.shopee.vn/3LPtZpHe7d","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Cát đỏ Garnet hạt mịn","price":"15000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mngxfeuwwcna81.webp","link":"https://s.shopee.vn/2LXMO2PSxt","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cám HIKARI MIX 5 PRO+","price":"41000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mngmlvbdyl1df5.webp","link":"https://s.shopee.vn/2BDwBmFbkb","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Siêu bông lọc thẩm thấu Lazy","price":"49000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mngmwhy1hn2a4c.webp","link":"https://s.shopee.vn/3qMAAtz3Pj","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cây Thủy Sinh Bạc Đầu Bông","price":"20000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhh080f8wutg70.webp","link":"https://s.shopee.vn/7fYskBj4nB","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Bá văn hương cam - Ludwigia inclinata ‘Red’","price":"20000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mhgcmki1e686c3.webp","link":"https://s.shopee.vn/7Acc9KaI1f","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"5 nhánh Thuỷ Sinh Trung Liễu","price":"20000","image":"https://down-vn.img.susercontent.com/file/1d1444f78d1d24e4e2238b2323affd35.webp","link":"https://s.shopee.vn/gP8PRJxVp","tag":"","category":"Combo"},{"name":"combo 15 loại cây thủy sinh","price":"150000","image":"https://down-bs-vn.img.susercontent.com/26a082eb3d36e1fbb895fde7da31373a.webp","link":"https://s.shopee.vn/40faNd52Cj","tag":"","category":"Combo"},{"name":"Bèo Tấm Thủy Sinh Lá Nhỏ","price":"16000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-23020-kq1u7ra8danvb4.webp","link":"https://s.shopee.vn/6fgWgFqWd4","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo hoa dâu xanh","price":"15000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mcan59vh6kiaec.webp","link":"https://s.shopee.vn/8V8ArjK6K2","tag":"","category":"Bèo Thủy Sinh"},{"name":"Rêu minifiss gắn giá thể","price":"45000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-m2i6s8r7aylu35.webp","link":"https://s.shopee.vn/19ckEAFX0","tag":"","category":"Rêu Thủy Sinh"},{"name":"Giá thể Rêu trang trí thuỷ sinh","price":"37240","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgmp7ugo5pfycb.webp","link":"https://s.shopee.vn/7fZ3sanX69","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Taiwan gắn giá thể tròn (5,5cm)","price":"32000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-m1l7ku8b8jwf2c.webp","link":"https://s.shopee.vn/6L3gICUiff","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Flame gắn giá thể (5,5cm)","price":"40000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx8l6nbw42jf41.webp","link":"https://s.shopee.vn/904RT8afgP","tag":"","category":"Rêu Thủy Sinh"},{"name":"Vỉ rêu Mini Taiwan (8x8cm)","price":"70000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxcwwdz2izmh69.webp","link":"https://s.shopee.vn/7fZ3sisxmY","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu thảm Minifiss trải nền","price":"9000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvw2x9nsech4c.webp","link":"https://s.shopee.vn/9ANrfXlm4I","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu đá Fiss","price":"19000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7ras8-m0eypj6dzw1998.webp","link":"https://s.shopee.vn/5q7PhSj9wP","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Us Fiss gắn giá thể","price":"40000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-820l4-mgml623hhyx9c0.webp","link":"https://s.shopee.vn/6fgWh2azhA","tag":"","category":"Rêu Thủy Sinh"}];</script>
 <script>
-const ALL        = [{"name":"Trân Châu Ngọc Trai","price":"40000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw7b5diuj17d50.webp","link":"https://s.shopee.vn/6fcWQYi9tE","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Ngưu Mao Chiên","price":"39999","image":"https://down-vn.img.susercontent.com/file/67db2a0d1593d27d6010e15489b603f6.webp","link":"https://s.shopee.vn/AUpEzkQLIS","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Bèo Rễ Đỏ","price":"15000","image":"https://down-vn.img.susercontent.com/file/f3eb578e49cb2b83d99d66964f0efa10.webp","link":"https://s.shopee.vn/5L78qKi3nv","tag":"","category":"Bèo Thủy Sinh"},{"name":"Cỏ Chân Vịt","price":"5999","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lqwze1mzhbq1b8.webp","link":"https://s.shopee.vn/7KsDE5bB0n","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Liễu Răng Cưa","price":"10000","image":"https://down-vn.img.susercontent.com/file/eae0a26d76924ee3a65e950f99d7260a@resize_w450_nl.webp","link":"https://s.shopee.vn/8ph12ryASl","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ngưu Mao Chiên Lùn Xòe Lá Nước","price":"30000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mjmt3qx0u6f450.webp","link":"https://s.shopee.vn/7VBdSUu8vv","tag":"","category":"Cây thủy sinh (cần CO2)"},{"name":"Rau Má Brazil","price":"12000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m65kavdgpkoz4c.webp","link":"https://s.shopee.vn/30jE6IL09X","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Rau Thơm Thủy Sinh","price":"19999","image":"https://down-vn.img.susercontent.com/file/45e133e04e621e28e47748f1f6919050.webp","link":"https://s.shopee.vn/5q3PTZLnZW","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tân Đế Tài Hồng","price":"20000","image":"https://down-vn.img.susercontent.com/file/2192329c30c8453628b94bce3c786522.webp","link":"https://s.shopee.vn/5AnigQO6X1","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Siêu Đỏ ROTALA COLORATA","price":"15000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lke43omhs1wc7a.webp","link":"https://s.shopee.vn/9pZYF2ljxx","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Ngọc Trai","price":"20000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-md67si2b6kkt11.webp","link":"https://s.shopee.vn/40blIvPAs3","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vảy Ốc Xanh Cao","price":"20000","image":"https://down-vn.img.susercontent.com/file/db6f1cc2f8c39bf5d95213460a819317.webp","link":"https://s.shopee.vn/8V4AfM8KoN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Rong Xương Cá","price":"16000","image":"https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m67tdk55h36f45.webp","link":"https://s.shopee.vn/6Kzg5Kqr4q","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Huyết Thái Dương","price":"10000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgi5tw1md2j348.webp","link":"https://s.shopee.vn/2BA77lCSwN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tiêu Thảo Nâu","price":"20000","image":"https://down-zl-vn.img.susercontent.com/4450ec0c4cb166bcfae6ce3fb5e179f7.webp","link":"https://s.shopee.vn/5fjzIYCFmO","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Tre Thủy Sinh","price":"20000","image":"https://down-zl-vn.img.susercontent.com/61c825dbeec6595f8ccaa8a3d1de5e6e.webp","link":"https://s.shopee.vn/5VQZ6He3k4","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Diệp Hồng Tài","price":"20000","image":"https://down-zl-vn.img.susercontent.com/a2495d29754a3035a6b8962f3e633c17.webp","link":"https://s.shopee.vn/LiSwuL5oy","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Lệ Nhi Tím","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6gjb1bl2pugf7.webp","link":"https://s.shopee.vn/W1t9KUtnD","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ráy Lá Tròn","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6nqnjqycoc804.webp","link":"https://s.shopee.vn/2LTZ6sq7RV","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Giá Thể","price":"7000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-luu6or2je5uae5.webp","link":"https://s.shopee.vn/AUpGpyTFif","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Keo Dán Cây","price":"14000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-22100-cmzh5de9v8hv3c.webp","link":"https://s.shopee.vn/9fG9qTrxXq","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Ráy Nana Lá Nhỏ","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx3kz6no9wpnbe.webp","link":"https://s.shopee.vn/4LEdUlA6cN","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Ráy Lá Dài","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-maca7es2328nd9.webp","link":"https://s.shopee.vn/4AvDIVeKIb","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Cây Lưỡi Mèo","price":"33000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-ljqxt230j9h0a3.webp","link":"https://s.shopee.vn/40bn6E3a2i","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Lá Hán Xanh Gắn Giá Thể","price":"45000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-ls2afr3bxbr831.webp","link":"https://s.shopee.vn/AKVqduSMh0","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Dương Xỉ Java","price":"38000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mhmveam95sec81.webp","link":"https://s.shopee.vn/1VuS7m6ZhU","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Hẹ Nước Gắn Giá Thể","price":"60000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-meiqvwphvnyf44.webp","link":"https://s.shopee.vn/4AvDIhYF2g","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Nhíp Trồng Cây","price":"30000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mar0438pb72k02.webp","link":"https://s.shopee.vn/9fG9qsHFwa","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Cát Mix Siêu Sạch","price":"15000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfds5wl5lbt5a5.webp","link":"https://s.shopee.vn/qelKgo9ZQ","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Tiêu Thảo Pava","price":"35000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ra0g-m6h0dowc1qhz89.webp","link":"https://s.shopee.vn/70FOg5kZy6","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Vitamin C Cho Cá","price":"65000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-822wp-mi307afvetj871.webp","link":"https://s.shopee.vn/W1uwJlll5","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Cục Tẩy Cặn Canxi","price":"21000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mfw88ix8579m74.webp","link":"https://s.shopee.vn/4VY3hjFFfh","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Cám Trùn Huyết Vibra","price":"65000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-81zuy-mio65zmfxszoc4.webp","link":"https://s.shopee.vn/5L7AhJ99Is","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Cám Trùn Huyết Blood Worm","price":"115000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mk3xorkt0etc16.webp","link":"https://s.shopee.vn/6KzhtBwucI","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Vi Sinh Sống Biozym","price":"480200","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-23010-s0ekbpjau4lva0.webp","link":"https://s.shopee.vn/1BHbjn3ukQ","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Đèn Rọi Lazy Magic","price":"108000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbhnicepe4xzb7.webp","link":"https://s.shopee.vn/1BHbjn3ukQ","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Methylene Blue Yee","price":"55000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-melcdbn76x3a5e.webp","link":"https://s.shopee.vn/40bn75193r","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Phân Nước Đa Lượng","price":"76440","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp","link":"https://s.shopee.vn/1VuS8ahEKG","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Bột Tím Sát Khuẩn Cá","price":"75000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd3q-lu8zlspgb53gcb.webp","link":"https://s.shopee.vn/6KzhtS1rP6","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vật Liệu Lọc Mattrix - Hàng Thùng 100","price":"57000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp","link":"https://s.shopee.vn/7VBfHdozN7","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vật Liệu Lọc Mattrix Pond","price":"69000","image":"https://down-zl-vn.img.susercontent.com/d5e9ad460ff4e44e4e93cdde6cdd9e72.webp","link":"https://s.shopee.vn/8fNcftqrZC","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vật Liệu Lọc Mattrix Chiết Lẻ","price":"22000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mg55ykdri80a72.webp","link":"https://s.shopee.vn/9KdJT6xBWk","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Vi Sinh Biozym Aqua","price":"40000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-22110-pj2y9juiqckva3.webp","link":"https://s.shopee.vn/2VmzKeP6ex","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vật Liệu Lọc Purigen Magic D","price":"69580","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rfhg-m95w3henm4sgaf.webp","link":"https://s.shopee.vn/5fk16WJ7sW","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cám Dán DR+ Brine Shrimp","price":"100000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcez-m6gog8x9uj23b6.webp","link":"https://s.shopee.vn/AACQT2t3a0","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Dung Dịch Khử Clo","price":"100000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp","link":"https://s.shopee.vn/7poVgoDVxl","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Vi Sinh Koika","price":"33900","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rcev-m6gmpytqvxff33.webp","link":"https://s.shopee.vn/70FOhL9VEq","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Dung Dịch Khử Clo Koika Detox","price":"31000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mbc6pbgk7d0zd1.webp","link":"https://s.shopee.vn/1Lb1x4B0f4","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Men Vi Sinh Extra Bio","price":"105000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lr1fh8xehadge2.webp","link":"https://s.shopee.vn/3VfWX4X19t","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Đèn Neo Helios Flat","price":"112700","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-m09yooedy7zh85.webp","link":"https://s.shopee.vn/7fV5UkK7Vj","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Khăn Lọc Bụi Mịn","price":"15000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-7rd5y-lx3rcg14gnk863.webp","link":"https://s.shopee.vn/LiUlSu2uv","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Thức Ăn Biozym Discus","price":"110000","image":"https://down-zl-vn.img.susercontent.com/d62c7e01afb981fcb6e57febe0f298f5.webp","link":"https://s.shopee.vn/qelMPrKmj","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Lọc váng SunSun","price":"83300","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7qukw-lfoz2mrutg1wcc.webp","link":"https://s.shopee.vn/gLLAA4Ie9","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Dao Cạo Rêu Mufan","price":"115000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-23020-gbddi2uv46mv5a.webp","link":"https://s.shopee.vn/6pvyVX3STq","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Phân Nền Senda","price":"34950","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp","link":"https://s.shopee.vn/2VmzMGX6lE","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Máy Sủi Oxy","price":"45000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mbjehchg04f4ca.webp","link":"https://s.shopee.vn/qelNHShcI","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Lọc Thác RLD","price":"169900","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ra0g-m9ps50kix8jm3f.webp","link":"https://s.shopee.vn/qelNHShcI","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"Nền Trang Trí Bể Cá","price":"14900","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5dsolzpc814.webp","link":"https://s.shopee.vn/7VBfJaMSZc","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Nham Thạch Đỏ","price":"19900","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhq5rvx84ge97d.webp","link":"https://s.shopee.vn/4qAu8j6aCd","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Sứ Viên","price":"18000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lnpyh7yqo58aa6.webp","link":"https://s.shopee.vn/8KkmJKnEZn","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Combo Vật Liệu Lọc","price":"8000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mdya7bfph6gwcc.webp","link":"https://s.shopee.vn/2BA8y2Kpgx","tag":"","category":"Combo"},{"name":"Cây Thủy Sinh Gắn Giá Thể","price":"40500","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mdbga8364oqn59.webp","link":"https://s.shopee.vn/1gDsN9dBS3","tag":"","category":"Combo"},{"name":"Sạn Suối","price":"12000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxjirigj1bdld9.webp","link":"https://s.shopee.vn/50UKLKsZEY","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Sỏi 3 Màu","price":"20000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic3v2sg1pw18.webp","link":"https://s.shopee.vn/3g2v7wteH0","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cát nắng vàng","price":"28000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ibq24znlpwbf.webp","link":"https://s.shopee.vn/AUtFGXt5UG","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cây Thủy Sinh Cắt Cắm","price":"35000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lu57tw5xayov31.webp","link":"https://s.shopee.vn/4frTwobKHU","tag":"","category":"Cây Cắt Cắm"},{"name":"Sỏi Đồng","price":"24500","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m2ic779akqeq2a.webp","link":"https://s.shopee.vn/10yBa99Wvu","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Rêu Mini Taiwan","price":"40000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-m4akxqwxryjk72.webp","link":"https://s.shopee.vn/3LM6MStrIE","tag":"","category":"Rêu Thủy Sinh"},{"name":"Lá Thủy Nữ","price":"115000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-ly42kilkp2v731.webp","link":"https://s.shopee.vn/7fV5WT9HF8","tag":"","category":"Bèo Thủy Sinh"},{"name":"La Hán Đỏ Giá Thể","price":"45000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-7r98o-lxybqb356ok962.webp","link":"https://s.shopee.vn/70FOjIdPK2","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Combo 5-20 Cây Thủy Sinh Cắt Cắm","price":"31000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lv3dxquj468q67.webp","link":"https://s.shopee.vn/AUpGtpPJGB","tag":"","category":"Cây Cắt Cắm"},{"name":"Combo Cây Lá Cạn","price":"31000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-7r98o-lwygfakxcqfvcc.webp","link":"https://s.shopee.vn/4frTx9VjMB","tag":"","category":"Combo"},{"name":"Combo Tiểu Bảo Tháp","price":"35000","image":"https://down-tx-vn.img.susercontent.com/vn-11134207-820l4-mfgzs3d37wnj56.webp","link":"https://s.shopee.vn/BP4av3NTc","tag":"","category":"Combo"},{"name":"Bèo thuỷ sinh","price":"19000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-81ztc-ml56rzk7jg8xdf.webp","link":"https://s.shopee.vn/qijj43cLh","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo Nhật Thủy Sinh","price":"9800","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-ml0r99jzti4j13.webp","link":"https://s.shopee.vn/3VjUu7NrIP","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo Tai Chuột (Bèo Tổ Ong)","price":"11750","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-81ztc-mnydrqqksn4138.webp","link":"https://s.shopee.vn/AKZp2llriH","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bông lọc cashmere thế hệ 2","price":"48220","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mp0fxn8b61ho8a.webp","link":"https://s.shopee.vn/4Az0ZGhIOZ","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"MÁY SỦI OXY MINI CHẠY BẰNG USB","price":"44500","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mo5burp5vv2e18.webp","link":"https://s.shopee.vn/9pdNJjKr4a","tag":"","category":"Dụng Cụ Thủy Sinh"},{"name":"100 Viên Vi Sinh Cao cấp","price":"7623","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mo6orscaetqc46.webp","link":"https://s.shopee.vn/3LPtZpHe7d","tag":"","category":"Vi Sinh & Xử Lý Nước"},{"name":"Cát đỏ Garnet hạt mịn","price":"15000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mngxfeuwwcna81.webp","link":"https://s.shopee.vn/2LXMO2PSxt","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cám HIKARI MIX 5 PRO+","price":"41000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mngmlvbdyl1df5.webp","link":"https://s.shopee.vn/2BDwBmFbkb","tag":"","category":"Thức Ăn Cho Cá"},{"name":"Siêu bông lọc thẩm thấu Lazy","price":"49000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-81ztc-mngmwhy1hn2a4c.webp","link":"https://s.shopee.vn/3qMAAtz3Pj","tag":"","category":"Cốt nền, vật liệu lọc"},{"name":"Cây Thủy Sinh Bạc Đầu Bông","price":"20000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhh080f8wutg70.webp","link":"https://s.shopee.vn/7fYskBj4nB","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"Bá văn hương cam - Ludwigia inclinata ‘Red’","price":"20000","image":"https://down-aka-vn.img.susercontent.com/vn-11134207-820l4-mhgcmki1e686c3.webp","link":"https://s.shopee.vn/7Acc9KaI1f","tag":"","category":"Cây thủy sinh (không cần CO2)"},{"name":"5 nhánh Thuỷ Sinh Trung Liễu","price":"20000","image":"https://down-aka-vn.img.susercontent.com/1d1444f78d1d24e4e2238b2323affd35.webp","link":"https://s.shopee.vn/gP8PRJxVp","tag":"","category":"Combo"},{"name":"combo 15 loại cây thủy sinh","price":"150000","image":"https://down-bs-vn.img.susercontent.com/26a082eb3d36e1fbb895fde7da31373a.webp","link":"https://s.shopee.vn/40faNd52Cj","tag":"","category":"Combo"},{"name":"Bèo Tấm Thủy Sinh Lá Nhỏ","price":"16000","image":"https://down-zl-vn.img.susercontent.com/sg-11134201-23020-kq1u7ra8danvb4.webp","link":"https://s.shopee.vn/6fgWgFqWd4","tag":"","category":"Bèo Thủy Sinh"},{"name":"Bèo hoa dâu xanh","price":"15000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-mcan59vh6kiaec.webp","link":"https://s.shopee.vn/8V8ArjK6K2","tag":"","category":"Bèo Thủy Sinh"},{"name":"Rêu minifiss gắn giá thể","price":"45000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-m2i6s8r7aylu35.webp","link":"https://s.shopee.vn/19ckEAFX0","tag":"","category":"Rêu Thủy Sinh"},{"name":"Giá thể Rêu trang trí thuỷ sinh","price":"37240","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-820l4-mgmp7ugo5pfycb.webp","link":"https://s.shopee.vn/7fZ3sanX69","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Taiwan gắn giá thể tròn (5,5cm)","price":"32000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7ras8-m1l7ku8b8jwf2c.webp","link":"https://s.shopee.vn/6L3gICUiff","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Flame gắn giá thể (5,5cm)","price":"40000","image":"https://down-zl-vn.img.susercontent.com/vn-11134207-7r98o-lx8l6nbw42jf41.webp","link":"https://s.shopee.vn/904RT8afgP","tag":"","category":"Rêu Thủy Sinh"},{"name":"Vỉ rêu Mini Taiwan (8x8cm)","price":"70000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lxcwwdz2izmh69.webp","link":"https://s.shopee.vn/7fZ3sisxmY","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu thảm Minifiss trải nền","price":"9000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7r98o-lyvw2x9nsech4c.webp","link":"https://s.shopee.vn/9ANrfXlm4I","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu đá Fiss","price":"19000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-7ras8-m0eypj6dzw1998.webp","link":"https://s.shopee.vn/5q7PhSj9wP","tag":"","category":"Rêu Thủy Sinh"},{"name":"Rêu Us Fiss gắn giá thể","price":"40000","image":"https://down-bs-vn.img.susercontent.com/vn-11134207-820l4-mgml623hhyx9c0.webp","link":"https://s.shopee.vn/6fgWh2azhA","tag":"","category":"Rêu Thủy Sinh"}];
-const CAT_ORDER  = ["Cây thủy sinh (không cần CO2)","Bèo Thủy Sinh","Rêu Thủy Sinh","Cây Cắt Cắm","Cây thủy sinh (cần CO2)","Vi Sinh & Xử Lý Nước","Cốt nền, vật liệu lọc","Thức Ăn Cho Cá","Dụng Cụ Thủy Sinh","Combo"];
-const CAT_ICONS  = {"Cây thủy sinh (không cần CO2)":"🌿","Bèo Thủy Sinh":"🍃","Rêu Thủy Sinh":"🌾","Cây Cắt Cắm":"✂️","Cây thủy sinh (cần CO2)":"🧪","Vi Sinh & Xử Lý Nước":"🦠","Cốt nền, vật liệu lọc":"🪨","Thức Ăn Cho Cá":"🐟","Dụng Cụ Thủy Sinh":"🔧","Combo":"🎁"};
-const CAT_LABELS = {"Cây thủy sinh (không cần CO2)":"Cây Không Cần CO2","Bèo Thủy Sinh":"Bèo Thủy Sinh","Rêu Thủy Sinh":"Rêu Thủy Sinh","Cây Cắt Cắm":"Cây Cắt Cắm","Cây thủy sinh (cần CO2)":"Cây Cần CO2","Vi Sinh & Xử Lý Nước":"Vi Sinh & Xử Lý Nước","Cốt nền, vật liệu lọc":"Cốt Nền & Vật Liệu Lọc","Thức Ăn Cho Cá":"Thức Ăn Cho Cá","Dụng Cụ Thủy Sinh":"Dụng Cụ Thủy Sinh","Combo":"Combo Tiết Kiệm"};
-let currentCat   = 'ALL';
+(() => {
+  const P = (window.PRODUCTS || []).map((p, i) => ({...p, i, priceN: Number(String(p.price).replace(/\D/g, '')) || 0}));
+  const CATS = [
+    {key:'Cây thủy sinh (không cần CO2)', label:'Cây không cần CO2', tag:['Không cần CO2','easy']},
+    {key:'Rêu Thủy Sinh', label:'Rêu', tag:['Rêu','']},
+    {key:'Bèo Thủy Sinh', label:'Bèo', tag:['Bèo','']},
+    {key:'Cây Cắt Cắm', label:'Cây cắt cắm', tag:['Cắt cắm','']},
+    {key:'Cây thủy sinh (cần CO2)', label:'Cây cần CO2', tag:['Cần CO2','co2']},
+    {key:'Cốt nền, vật liệu lọc', label:'Nền và vật liệu lọc', tag:['Nền, lọc','']},
+    {key:'Vi Sinh & Xử Lý Nước', label:'Vi sinh, xử lý nước', tag:['Vi sinh','']},
+    {key:'Dụng Cụ Thủy Sinh', label:'Dụng cụ', tag:['Dụng cụ','']},
+    {key:'Thức Ăn Cho Cá', label:'Thức ăn cho cá', tag:['Thức ăn','']},
+    {key:'Combo', label:'Combo', tag:['Combo','']},
+  ];
+  const catOf = k => CATS.find(c => c.key === k) || {label:k, tag:[k,'']};
+  const NEEDS = [
+    {id:'moi', title:'Bể mới, chưa trồng gì', text:'Nền, vi sinh và vài loại cây dễ sống để bắt đầu.', cats:['Cốt nền, vật liệu lọc','Vi Sinh & Xử Lý Nước','Cây thủy sinh (không cần CO2)']},
+    {id:'khongco2', title:'Bể không có bình CO2', text:'Cây lá chậm, ráy, dương xỉ sống tốt chỉ với đèn thường.', cats:['Cây thủy sinh (không cần CO2)']},
+    {id:'reu', title:'Trải thảm rêu, gắn lũa', text:'Rêu gắn sẵn giá thể, đặt vào bể là xong.', cats:['Rêu Thủy Sinh']},
+    {id:'nuoc', title:'Nước đục, có rêu hại', text:'Vi sinh, khử clo và bèo che bớt ánh sáng.', cats:['Vi Sinh & Xử Lý Nước','Bèo Thủy Sinh']},
+  ];
+  const vnd = n => n ? n.toLocaleString('vi-VN') + 'đ' : 'Liên hệ';
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/đ/g,'d');
+  const ext = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>';
+  const arrow = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+  const pic = (p, alt) => `<img class="ph" src="${esc(p.image)}" crossorigin="anonymous" alt="${alt ? esc(alt) : ''}" loading="lazy">`;
 
-function card(p) {
-    const price = p.price.endsWith('đ') ? p.price : p.price + 'đ';
-    const badge = p.tag ? `<span class="absolute top-2 left-2 bg-orange-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-md z-10">${p.tag}</span>` : '';
-    return `<div class="product-card bg-emerald-950/50 border border-emerald-900/60 rounded-xl overflow-hidden shadow-md flex flex-col hover:border-emerald-700/70">
-        <div class="relative aspect-square bg-emerald-900/20 overflow-hidden">${badge}
-            <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://via.placeholder.com/300'">
-        </div>
-        <div class="p-2.5 flex flex-col flex-grow">
-            <h3 class="text-xs md:text-sm font-medium text-emerald-100 line-clamp-2 leading-tight mb-1 flex-grow" title="${p.name}">${p.name}</h3>
-            <div class="text-sm font-bold text-emerald-400 mb-2">${price}</div>
-            <a href="${p.link}" target="_blank" class="shopee-btn w-full text-center text-white text-xs font-bold py-2 rounded-lg flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-all">
-                <span class="material-symbols-outlined text-sm">shopping_cart</span>Mua Ngay
-            </a>
-        </div>
-    </div>`;
-}
+  // Khung ảnh đồng nhất: đo viền đơn sắc (trắng/đen) trong ảnh shop, phóng và căn để phần sản phẩm lấp đầy khung vuông
+  const CROP = 1.18, MAXS = 2.2;
+  const cv = document.createElement('canvas'); cv.width = cv.height = 96;
+  const cx = cv.getContext('2d', {willReadFrequently: true});
+  function fit(img) {
+    let d; try { cx.clearRect(0,0,96,96); cx.drawImage(img, 0, 0, 96, 96); d = cx.getImageData(0,0,96,96).data; } catch (e) { return; }
+    const L = (x, y) => { const i = (y*96 + x) * 4; return .3*d[i] + .59*d[i+1] + .11*d[i+2]; };
+    const flat = (get) => { let s = 0, s2 = 0; for (let k = 0; k < 96; k++) { const v = get(k); s += v; s2 += v*v; } const m = s/96, sd = Math.sqrt(Math.max(0, s2/96 - m*m)); return sd < 14 && (m < 60 || m > 205); };
+    let t = 0, b = 95, l = 0, r = 95;
+    while (t < 40 && flat(k => L(k, t))) t++;
+    while (b > 55 && flat(k => L(k, b))) b--;
+    while (l < 40 && flat(k => L(l, k))) l++;
+    while (r > 55 && flat(k => L(r, k))) r--;
+    const w = (r - l + 1) / 96, h = (b - t + 1) / 96;
+    let s = Math.min(MAXS, Math.max(CROP, 1 / Math.min(w, h) * 1.07));
+    let ccx = (l + r + 1) / 192, ccy = (t + b + 1) / 192;
+    const half = .5 / s; ccx = Math.min(1 - half, Math.max(half, ccx)); ccy = Math.min(1 - half, Math.max(half, ccy));
+    img.style.setProperty('--s', s.toFixed(3));
+    img.style.setProperty('--tx', ((.5 - ccx) * s * 100).toFixed(2) + '%');
+    img.style.setProperty('--ty', ((.5 - ccy) * s * 100).toFixed(2) + '%');
+  }
+  document.addEventListener('load', e => { if (e.target.matches?.('img.ph')) fit(e.target); }, true);
+  document.addEventListener('error', e => {
+    const img = e.target; if (!img.matches?.('img.ph')) return;
+    if (img.hasAttribute('crossorigin')) { img.removeAttribute('crossorigin'); img.src = img.src; return; } // shop không cho đọc ảnh: vẫn hiện, chỉ dùng khung chung
+    const box = img.parentNode; if (box.classList.contains('card__img')) { box.classList.add('noimg'); img.replaceWith(document.createTextNode('Chưa có ảnh')); } else img.style.visibility = 'hidden';
+  }, true);
 
-function init() {
-    const tagged   = ALL.filter(p => p.tag);
-    const fillPool = ALL.filter(p => !p.tag && p.category === 'Cây thủy sinh (không cần CO2)');
-    const suggested = [...tagged, ...fillPool].slice(0, 6);
-    document.getElementById('suggestedGrid').innerHTML = suggested.map(card).join('');
+  // Facts from data
+  const count = c => P.filter(p => p.category === c).length;
+  document.querySelector('[data-count]').textContent = P.length;
+  document.querySelector('[data-min]').textContent = vnd(Math.min(...P.map(p => p.priceN).filter(Boolean)));
+  document.querySelector('[data-easy]').textContent = count('Cây thủy sinh (không cần CO2)') + ' loại';
+  document.querySelector('[data-cats]').textContent = new Set(P.map(p => p.category)).size + ' nhóm';
+  document.querySelector('[data-combo]').textContent = count('Combo') + ' combo';
 
-    const catMap = {};
-    ALL.forEach(p => { if (!catMap[p.category]) catMap[p.category]=[]; catMap[p.category].push(p); });
+  // State
+  const st = {cats:null, need:null, q:'', sort:'rec', shown:20};
+  const PAGE = 20;
+  const grid = document.getElementById('grid'), chips = document.getElementById('chips');
+  const q = document.getElementById('q'), sort = document.getElementById('sort');
+  const more = document.getElementById('more'), cnt = document.getElementById('count'), reset = document.getElementById('reset');
+  // Gợi ý: món có Highlight_Tag trong Sheet lên trước, sau đó theo thứ tự nhóm
+  const rank = p => { const ci = CATS.findIndex(c => c.key === p.category); return (p.tag ? 0 : 100000) + (ci < 0 ? 99 : ci) * 1000 + p.i; };
 
-    const ordered = [...CAT_ORDER.filter(c => catMap[c]), ...Object.keys(catMap).filter(c => !CAT_ORDER.includes(c))];
-    document.getElementById('catSections').innerHTML = ordered.map(cat => {
-        const prods = catMap[cat];
-        const icon  = CAT_ICONS[cat]  || '📂';
-        const label = CAT_LABELS[cat] || cat;
-        return `<section class="mb-5">
-            <div class="flex items-center justify-between mb-2.5 pb-1.5 border-b border-emerald-900/60">
-                <h3 class="text-sm md:text-base font-bold text-emerald-300">${icon} ${label}</h3>
-                <span class="text-[11px] text-emerald-500">${prods.length} sản phẩm</span>
-            </div>
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-2.5 md:gap-4">${prods.map(card).join('')}</div>
-        </section>`;
-    }).join('');
-}
+  // Needs
+  document.getElementById('needs').innerHTML = NEEDS.map(n => {
+    const items = P.filter(p => n.cats.includes(p.category));
+    const pics = n.cats.flatMap(c => P.filter(p => p.category === c).slice(0, 3)).slice(0, 3);
+    return `<button class="need" type="button" data-need="${n.id}">
+      <span class="need__pics">${pics.map(p => `<span>${pic(p)}</span>`).join('')}</span>
+      <span class="need__body"><h3>${n.title}</h3><p>${n.text}</p><span class="need__go">Xem ${items.length} món ${arrow}</span></span>
+    </button>`;
+  }).join('');
+  document.getElementById('needs').addEventListener('click', e => {
+    const b = e.target.closest('[data-need]'); if (!b) return;
+    const n = NEEDS.find(x => x.id === b.dataset.need);
+    Object.assign(st, {cats:n.cats, need:n, q:'', shown:PAGE}); q.value = '';
+    render(); document.getElementById('danh-muc').scrollIntoView();
+  });
 
-function filterProducts() {
-    const q = document.getElementById('searchInput').value.toLowerCase().trim();
-    document.getElementById('clearBtn').classList.toggle('hidden', q === '');
-    if (q === '' && currentCat === 'ALL') { showDefault(); return; }
+  // Chips
+  const present = CATS.filter(c => count(c.key));
+  chips.innerHTML = `<button class="chip" type="button" data-cat="">Tất cả <small>${P.length}</small></button>` +
+    present.map(c => `<button class="chip" type="button" data-cat="${esc(c.key)}">${c.label} <small>${count(c.key)}</small></button>`).join('');
+  chips.addEventListener('click', e => {
+    const b = e.target.closest('[data-cat]'); if (!b) return;
+    Object.assign(st, {cats: b.dataset.cat ? [b.dataset.cat] : null, need:null, shown:PAGE});
+    render();
+  });
+  q.addEventListener('input', () => { Object.assign(st, {q:q.value.trim(), cats:null, need:null, shown:PAGE}); render(); });
+  sort.addEventListener('change', () => { st.sort = sort.value; render(); });
+  more.addEventListener('click', () => { st.shown += PAGE; render(); });
+  reset.addEventListener('click', () => { Object.assign(st, {cats:null, need:null, q:'', shown:PAGE}); q.value=''; render(); });
+  document.getElementById('toSearch').addEventListener('click', () => setTimeout(() => q.focus({preventScroll:true}), 450));
 
-    const filtered = ALL.filter(p => {
-        const matchQ = !q || p.name.toLowerCase().includes(q) || p.category.toLowerCase().includes(q) || (p.tag && p.tag.toLowerCase().includes(q));
-        const matchC = currentCat === 'ALL' || p.category === currentCat;
-        return matchQ && matchC;
-    });
+  const card = p => {
+    const c = catOf(p.category);
+    return `<article class="card">
+      <div class="card__img">${pic(p, p.name)}</div>
+      <div class="card__body">
+        ${p.tag ? `<span class="tag tag--easy">${esc(p.tag)}</span>` : `<span class="tag ${c.tag[1] ? 'tag--' + c.tag[1] : ''}">${c.tag[0]}</span>`}
+        <h3 title="${esc(p.name)}">${esc(p.name)}</h3>
+        <div class="price">${vnd(p.priceN)}</div>
+        <a class="buy" href="${esc(p.link)}" target="_blank" rel="noopener sponsored" aria-label="Xem ${esc(p.name)} trên Shopee">Xem trên Shopee ${ext}</a>
+      </div>
+    </article>`;
+  };
 
-    document.getElementById('heroBanner').classList.add('hidden');
-    document.getElementById('defaultSections').classList.add('hidden');
-    document.getElementById('filterSection').classList.remove('hidden');
+  function render() {
+    let list = P.slice();
+    if (st.cats) list = list.filter(p => st.cats.includes(p.category));
+    if (st.q) { const k = norm(st.q); list = list.filter(p => norm(p.name + ' ' + p.category).includes(k)); }
+    list.sort(st.sort === 'asc' ? (a,b) => a.priceN - b.priceN : st.sort === 'desc' ? (a,b) => b.priceN - a.priceN : (a,b) => rank(a) - rank(b));
+    const shown = list.slice(0, st.shown);
+    grid.innerHTML = shown.length ? shown.map(card).join('') :
+      `<div class="empty"><b>Chưa có món nào khớp “${esc(st.q)}”</b>Thử gõ tên ngắn hơn, ví dụ “rêu” hoặc “ráy”.</div>`;
+    const label = st.need ? `Gợi ý cho “${st.need.title}”` : st.cats ? catOf(st.cats[0]).label : 'Tất cả';
+    cnt.textContent = `${label}: ${list.length} món` + (list.length > shown.length ? `, đang hiện ${shown.length}` : '');
+    more.hidden = list.length <= shown.length;
+    more.textContent = `Hiện thêm ${Math.min(PAGE, list.length - shown.length)} sản phẩm`;
+    reset.hidden = !(st.cats || st.q);
+    chips.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', String(
+      !st.need && (b.dataset.cat ? !!st.cats && st.cats[0] === b.dataset.cat : !st.cats))));
+  }
+  render();
 
-    const label = CAT_LABELS[currentCat] || currentCat;
-    const titleEl = document.getElementById('filterTitle');
-    if (currentCat !== 'ALL' && !q)      titleEl.textContent = label;
-    else if (currentCat !== 'ALL' && q)  titleEl.textContent = label + ' · "' + q + '"';
-    else                                  titleEl.textContent = 'Tìm kiếm: "' + q + '"';
+  // Combos
+  document.getElementById('combos').innerHTML = P.filter(p => p.category === 'Combo').sort((a,b) => a.priceN - b.priceN).map(p =>
+    `<li><a href="${esc(p.link)}" target="_blank" rel="noopener sponsored"><span class="th">${pic(p)}</span><span class="n">${esc(p.name)}</span><span class="p">${vnd(p.priceN)}</span>${arrow}</a></li>`).join('');
 
-    document.getElementById('filterCount').textContent = filtered.length + ' sản phẩm';
-    document.getElementById('filterGrid').innerHTML = filtered.length
-        ? filtered.map(card).join('')
-        : `<div class="col-span-full py-12 text-center text-emerald-500/80 text-xs"><span class="material-symbols-outlined text-3xl mb-1 block">search_off</span>Không tìm thấy sản phẩm phù hợp.</div>`;
-}
+  // TikTok in-app tip
+  const tip = document.getElementById('tip');
+  const inApp = /musical_ly|BytedanceWebview|TikTok|trill/i.test(navigator.userAgent) || /[?&]tiktok=1/.test(location.search);
+  let dismissed = false; try { dismissed = sessionStorage.getItem('tipOff') === '1'; } catch (e) {}
+  if (inApp && !dismissed) tip.classList.add('show');
+  document.getElementById('tipClose').addEventListener('click', () => { tip.classList.remove('show'); try { sessionStorage.setItem('tipOff','1'); } catch (e) {} });
 
-function clearSearch() {
-    document.getElementById('searchInput').value = '';
-    filterProducts();
-}
-
-function setFilter(cat, el) {
-    currentCat = cat;
-    document.querySelectorAll('.cat-pill').forEach(b => {
-        b.classList.remove('active');
-        b.classList.add('bg-emerald-900/50','text-emerald-300');
-    });
-    el.classList.add('active');
-    el.classList.remove('bg-emerald-900/50','text-emerald-300');
-    if (cat === 'ALL' && document.getElementById('searchInput').value === '') { showDefault(); }
-    else { filterProducts(); }
-}
-
-function showDefault() {
-    document.getElementById('filterSection').classList.add('hidden');
-    document.getElementById('defaultSections').classList.remove('hidden');
-    document.getElementById('heroBanner').classList.remove('hidden');
-    document.getElementById('clearBtn').classList.add('hidden');
-}
-
-document.addEventListener('DOMContentLoaded', init);
+  // Phone action bar: show after the hero buttons scroll away
+  const bar = document.getElementById('bar'), heroBtns = document.querySelector('.hero .btn-row');
+  new IntersectionObserver(([e]) => bar.classList.toggle('on', !e.isIntersecting && e.boundingClientRect.top < 0)).observe(heroBtns);
+})();
 </script>
-
-<!-- ============================================================
-     BUILD INFO — Nhúng tự động bởi N8N mỗi lần deploy
-     Dùng để xác minh phiên bản: Chuột phải > "View Page Source" > tìm BUILD
-     Build time  : 11:06:38 16/8/2026
-     Build UTC   : 2026-08-16T04:06:38.868Z
-     Total items : 96 sản phẩm
-     Cache key   : 1786853198868
-============================================================= -->
+<!-- BUILD INFO (n8n): 22:31:33 17/11/2026 | 2026-11-17T15:31:33.660Z | 96 sản phẩm | cache 1794929493667 -->
 </body>
 </html>
