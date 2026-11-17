@@ -18,6 +18,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4W1SQZHB9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-4W1SQZHB9F', {
+    // tiktok_inapp: mở trong trình duyệt của TikTok; web: Chrome/Safari/app khác
+    browser_context: /musical_ly|BytedanceWebview|TikTok|trill/i.test(navigator.userAgent) ? 'tiktok_inapp' : 'web'
+  });
+</script>
 <style>
 :root{
   --bg:#F5F3EC; --surface:#FFFFFF; --alt:#ECEAE1; --ink:#1B2420; --muted:#58615B;
@@ -452,7 +463,7 @@ footer a{color:var(--ink);text-underline-offset:3px}
 
   const card = p => {
     const c = catOf(p.category);
-    return `<article class="card">
+    return `<article class="card" data-i="${p.i}">
       <div class="card__img">${pic(p, p.name)}</div>
       <div class="card__body">
         ${p.tag ? `<span class="tag tag--easy">${esc(p.tag)}</span>` : `<span class="tag ${c.tag[1] ? 'tag--' + c.tag[1] : ''}">${c.tag[0]}</span>`}
@@ -483,7 +494,7 @@ footer a{color:var(--ink);text-underline-offset:3px}
 
   // Combos
   document.getElementById('combos').innerHTML = P.filter(p => p.category === 'Combo').sort((a,b) => a.priceN - b.priceN).map(p =>
-    `<li><a href="${esc(p.link)}" target="_blank" rel="noopener sponsored"><span class="th">${pic(p)}</span><span class="n">${esc(p.name)}</span><span class="p">${vnd(p.priceN)}</span>${arrow}</a></li>`).join('');
+    `<li><a data-i="${p.i}" href="${esc(p.link)}" target="_blank" rel="noopener sponsored"><span class="th">${pic(p)}</span><span class="n">${esc(p.name)}</span><span class="p">${vnd(p.priceN)}</span>${arrow}</a></li>`).join('');
 
   // TikTok in-app tip
   const tip = document.getElementById('tip');
@@ -491,6 +502,42 @@ footer a{color:var(--ink);text-underline-offset:3px}
   let dismissed = false; try { dismissed = sessionStorage.getItem('tipOff') === '1'; } catch (e) {}
   if (inApp && !dismissed) tip.classList.add('show');
   document.getElementById('tipClose').addEventListener('click', () => { tip.classList.remove('show'); try { sessionStorage.setItem('tipOff','1'); } catch (e) {} });
+
+  // ===== Đo lường GA4 =====
+  const track = (name, params) => { try { if (typeof gtag === 'function') gtag('event', name, params); } catch (e) {} };
+  const listName = () => st.need ? 'nhu_cau: ' + st.need.title : st.q ? 'tim_kiem' : st.cats ? catOf(st.cats[0]).label : 'Tất cả';
+
+  // Click sang Shopee: sự kiện chính để đánh dấu Key event (chuyển đổi)
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href*="shopee.vn"]'); if (!a) return;
+    const holder = a.closest('[data-i]');
+    const p = holder ? P[+holder.dataset.i] : null;
+    const placement = a.closest('.card') ? 'the_san_pham' : a.closest('#combos') ? 'combo' : a.closest('.actionbar') ? 'thanh_duoi_mobile' : a.closest('.nav') ? 'header' : 'khac';
+    const params = { placement, link_url: a.href, list_name: placement === 'the_san_pham' ? listName() : placement };
+    if (p) {
+      Object.assign(params, { item_name: p.name, item_category: p.category, value: p.priceN, currency: 'VND' });
+      if (placement === 'the_san_pham') params.item_position = [...grid.children].indexOf(holder) + 1;
+      track('select_item', { item_list_name: params.list_name, items: [{ item_id: p.link, item_name: p.name, item_category: p.category, price: p.priceN, index: params.item_position || 0 }] });
+    }
+    track('affiliate_click', params);
+  }, true);
+
+  document.getElementById('needs').addEventListener('click', e => {
+    const b = e.target.closest('[data-need]'); if (b) track('need_select', { need_name: NEEDS.find(x => x.id === b.dataset.need).title });
+  });
+  chips.addEventListener('click', e => {
+    const b = e.target.closest('[data-cat]'); if (b) track('filter_category', { category: b.dataset.cat ? catOf(b.dataset.cat).label : 'Tất cả' });
+  });
+  let searchTimer;
+  q.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    const term = q.value.trim(); if (term.length < 2) return;
+    searchTimer = setTimeout(() => track('search', { search_term: term, results: grid.querySelectorAll('.card').length ? Number((cnt.textContent.match(/(\d+) món/) || [0, 0])[1]) : 0 }), 1200);
+  });
+  sort.addEventListener('change', () => track('sort_change', { sort_by: sort.value }));
+  more.addEventListener('click', () => track('view_more', { list_name: listName(), shown: st.shown }));
+  document.getElementById('tipClose').addEventListener('click', () => track('tiktok_tip_dismiss', {}));
+  if (tip.classList.contains('show')) track('tiktok_tip_view', {});
 
   // Phone action bar: show after the hero buttons scroll away
   const bar = document.getElementById('bar'), heroBtns = document.querySelector('.hero .btn-row');
